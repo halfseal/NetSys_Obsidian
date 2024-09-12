@@ -3,16 +3,6 @@ SKKU NetSys Lab Undergraduate Obsidian for Linux Network Kernel Analysis
 
 # 협업 컨벤션
 
-## branch
-
-1. 프론트
-    1. main 브랜치 1개 사용
-    2. 로컬과 배포환경의 환경변수를 다르게 설정
-2. 백엔드
-    1. main 브랜치 1개 사용
-    2. 라즈베리파이와 Firebase Hosting의 환경변수를 다르게 설정
-        1. 2개의 서버가 필요함
-
 ## issue
 
 - Assignees와 Label을 달아주세요
@@ -29,7 +19,7 @@ ex) 123-edit-root-layout
 - 소문자 사용
 - 동사 원형으로 시작
 - 마침표 붙이지 않음
-- - (dash) 사용
+- `-`(dash) 사용
 
 대부분의 경우, 브랜치는 최신 main 브랜치에서 분기합니다. 
 
@@ -47,14 +37,14 @@ Angular commit convention
 ex) feat: add register button
 
 <type>
-feat: 새로운 기능 추가
-fix: 버그 수정
-docs: 문서화
-style: 코드 스타일 변경 linting
-refactor: 코드 리팩토링
-test: 테스트 코드
-chore: 사소한 작업
-hotfix: 긴급 버그 수정
+- feat: 새로운 기능 추가
+- fix: 버그 수정
+- docs: 문서화
+- style: 코드 스타일 변경 linting
+- refactor: 코드 리팩토링
+- test: 테스트 코드
+- chore: 사소한 작업
+- hotfix: 긴급 버그 수정
 
 <description>
 
