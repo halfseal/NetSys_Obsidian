@@ -1,0 +1,1 @@
+[https://www.kernel.org/doc/Documentation/IRQ-domain.txt](https://www.kernel.org/doc/Documentation/IRQ-domain.txt)

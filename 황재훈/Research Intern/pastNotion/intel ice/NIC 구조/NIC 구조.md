@@ -1,0 +1,1 @@
+![[황재훈/Research Intern/pastNotion/intel ice/NIC 구조/img/Untitled.png|Untitled.png]]
