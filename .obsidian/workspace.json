@@ -4,83 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ca80c5910eae5296",
+        "id": "1007f7dda82b3941",
         "type": "tabs",
         "children": [
           {
-            "id": "9c4df21a9afcec95",
+            "id": "914250b3f074acee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_early_demux().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e50fad5ce842399b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_slow().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d51a7cfd8d40eaf5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5de6086a67c08f48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "김기수/산협 프로젝트 2/백서 제작용/pfmemalloc이란.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d16dc9e397bbfcb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test092424hhjj.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38f5d36a44781790",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_slow().md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/함수 콜 스택update.md"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test092424hhjj.md",
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test092424hhjj.md",
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test092424hhjj.md"
+                "file": "Excalidraw/함수 콜 스택update.md"
               }
             }
           }
@@ -228,18 +165,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d16dc9e397bbfcb4",
+  "active": "914250b3f074acee",
   "lastOpenFiles": [
-    "김기수/산협 프로젝트 2/백서 제작용/pfmemalloc이란.md",
+    "Excalidraw/함수 콜 스택.md",
+    "Excalidraw/함수 콜 스택update.md",
+    "함수 콜 스택update.md",
+    "함수 콜 스택.md",
+    "Excalidraw/RPS-IPI 관계도.md",
+    "Excalidraw/함수 콜 스택.png",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_slow().md",
     "test092424hhjj.md",
+    "김기수/산협 프로젝트 2/백서 제작용/pfmemalloc이란.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_early_demux().md",
     "Tags",
     "김기수/산협 프로젝트 2/백서 제작용/ip6_input().md",
     "김기수/산협 프로젝트 2/미팅 노트/9월 미팅.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_find() incomplete.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_slow().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish().md",
-    "Excalidraw/함수 콜 스택.md",
     "김기수/산협 프로젝트 2/미팅 노트/9.20 미팅.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_protocol_deliver_rcu().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver_finish().md",
@@ -253,10 +195,6 @@
     "Encyclopedia of NetworkSystem/Function/net-ipv4/fib_table_lookup().md",
     "김기수/산협 프로젝트 2/미팅 노트/9.11 미팅.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_rcu().md",
-    "김기수/산협 프로젝트 2/백서 제작용/hooks_ipv4란.md",
-    "김기수/산협 프로젝트 2/미팅 노트/미팅 노트.md",
-    "김기수/산협 프로젝트 2/미팅 노트/8.27 미팅.md",
-    "README.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
     "Untitled 1.canvas",
     "images/Pasted image 20240904101222.png",
@@ -268,7 +206,6 @@
     "images/Pasted image 20240904100752 1.png",
     "Encyclopedia of NetworkSystem/Function/net-core/img/Pasted image 20240904104737.png",
     "Encyclopedia of NetworkSystem/Function/net-core/img",
-    "Excalidraw/함수 콜 스택.png",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img/Pasted image 20240901180451.png",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img",
     "Encyclopedia of NetworkSystem/Function/net-netfilter",
