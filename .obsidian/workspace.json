@@ -28,56 +28,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "447bbc38491a47ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_add_backlog().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c01590d20b655557",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71de45b31221ac1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_add_backlog().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44c77433881be84e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_owned_by_user().md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/함수 콜 스택update.md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/함수 콜 스택update.md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/함수 콜 스택update.md"
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md"
               }
             }
           }
@@ -226,16 +179,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "914250b3f074acee",
+  "active": "cba6ce32b281d2f7",
   "lastOpenFiles": [
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_add_backlog().md",
     "Excalidraw/함수 콜 스택update.md",
-    "황재훈/Research Intern/081324/netif_receive_skb().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_add_backlog().md",
     "skb_try_coalesce().md",
     "skb_condense().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/sk_add_backlog().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_owned_by_user().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
+    "황재훈/Research Intern/081324/netif_receive_skb().md",
     "Excalidraw/함수 콜 스택.md",
     "함수 콜 스택update.md",
     "함수 콜 스택.md",
@@ -255,7 +209,6 @@
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver_finish().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_defrag().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_frag_queue() incomplete.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
     "Untitled 1.canvas",
     "images/Pasted image 20240904101222.png",

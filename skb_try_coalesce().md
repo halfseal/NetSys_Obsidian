@@ -93,3 +93,8 @@ bool skb_try_coalesce(struct sk_buff *to, struct sk_buff *from,
 	return true;
 }
 ```
+
+pkt들을 합치는 과정이다. to skb에다 from skb를 합친다. 
+skb들이 frag_list를 가지고 있거나 zero copy가 된 경우에는 합치지 못한다.
+from skb의 fragment들을 to skb에다 memcpy해준다. 
+to skb의 true size를 업데이트 해준다. 
