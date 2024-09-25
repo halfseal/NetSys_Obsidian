@@ -5,6 +5,34 @@
       "path": "Excalidraw/함수 콜 스택update.md"
     },
     {
+      "basename": "tcp_add_backlog()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_add_backlog().md"
+    },
+    {
+      "basename": "netif_receive_skb()",
+      "path": "황재훈/Research Intern/081324/netif_receive_skb().md"
+    },
+    {
+      "basename": "tcp_v4_rcv()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md"
+    },
+    {
+      "basename": "skb_try_coalesce()",
+      "path": "skb_try_coalesce().md"
+    },
+    {
+      "basename": "skb_condense()",
+      "path": "skb_condense().md"
+    },
+    {
+      "basename": "sock_owned_by_user()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_owned_by_user().md"
+    },
+    {
+      "basename": "tcp_v4_do_rcv()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md"
+    },
+    {
       "basename": "함수 콜 스택",
       "path": "Excalidraw/함수 콜 스택.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "tcp4_gro_receive()",
       "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_receive().md"
-    },
-    {
-      "basename": "napi_schedule_rps()",
-      "path": "황재훈/Research Intern/081324/napi_schedule_rps().md"
-    },
-    {
-      "basename": "net_rx_action()",
-      "path": "황재훈/Research Intern/081324/net_rx_action().md"
-    },
-    {
-      "basename": "netif_receive_skb_internal()",
-      "path": "황재훈/Research Intern/081324/netif_receive_skb_internal().md"
-    },
-    {
-      "basename": "netif_receive_skb()",
-      "path": "황재훈/Research Intern/081324/netif_receive_skb().md"
-    },
-    {
-      "basename": "rps_sock_flow_table",
-      "path": "황재훈/Research Intern/081324/rps_sock_flow_table.md"
-    },
-    {
-      "basename": "zzmiscell",
-      "path": "황재훈/Research Intern/081324/zzmiscell.md"
-    },
-    {
-      "basename": "ip_rcv",
-      "path": "황재훈/Research Intern/082924/ip_rcv.md"
     }
   ],
   "omittedPaths": []
