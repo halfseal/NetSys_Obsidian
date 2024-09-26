@@ -9,6 +9,14 @@
       "path": "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md"
     },
     {
+      "basename": "tcp_filter()",
+      "path": "tcp_filter().md"
+    },
+    {
+      "basename": "`__inet_lookup_skb()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/`__inet_lookup_skb().md"
+    },
+    {
       "basename": "tcp_v4_rcv()",
       "path": "황재훈/Research Intern/082924/tcp_v4_rcv().md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "__netif_receive_skb_core()",
       "path": "Encyclopedia of NetworkSystem/Function/net-core/__netif_receive_skb_core().md"
-    },
-    {
-      "basename": "napi_struct",
-      "path": "Encyclopedia of NetworkSystem/Struct/include-linux/napi_struct.md"
-    },
-    {
-      "basename": "get_rps_cpu()",
-      "path": "황재훈/Research Intern/081324/get_rps_cpu().md"
     }
   ],
   "omittedPaths": []
