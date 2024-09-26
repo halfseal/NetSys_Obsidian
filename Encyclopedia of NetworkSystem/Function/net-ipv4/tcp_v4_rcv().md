@@ -265,14 +265,16 @@ do_time_wait:
 }
 ```
 
->우선 `skb->data`를 통해 tcp header를 가르키는 포인터를 가져오게 된다.
+>첫 번째로 `skb->pkt_type`을 검사하여 이것이 `PACKET_HOST`가 아니라면 이를 버리게 된다. 이는 이 패킷의 목적지가 본인인지 확인하는 조건문이다.
+>우선 `skb->data`를 통해 tcp header를 가르키는 포인터를 `th`에다가 가져오게 된다.
 >그 후, `__inet_lookup_skb()`함수를 통해 소켓을 가져오게 되고, 만약 해당하는 TCP 소켓이 없다면 `no_tcp_socket`라벨로 건너뛰게 된다.
 >
->TCP 소켓을 확인하였다면 `process` 라벨 아래 코드들이 실행되는데, `sk_state`값을 확인하여 작업을 이어나간다.
+>TCP 소켓을 확인하였다면 `process` 라벨 아래 코드들이 실행되는데, `sk->sk_state`값을 확인하여 작업을 이어나간다.
 >
- `sk_state == TCP_NEW_SYN_RECV` 조건문으로 3-way handshake 작업이 수행되게 되는데, `request_sock` 타입의 구조체로 `sock`을 캐스팅하여 `req` 변수로 다루게 된다. `xfrm4_policy_check()` 함수를 통해 패킷의 드랍 여부를 판단하고, 만약 드랍 이유가 발생하였다면 드랍하게 된다.
+ `sk_state == TCP_NEW_SYN_RECV` 조건문으로 3-way handshake 작업이 수행되게 되는데, `request_sock` 타입의 구조체로 `sock`을 캐스팅하여 `req` 변수로 다루게 된다.  여기서 `request_sock`은 `sock`을 감싸고 있는 구조체이다.
+이후,  `xfrm4_policy_check()` 함수를 통해 패킷의 드랍 여부를 판단하고, 만약 드랍 이유가 발생하였다면 드랍하게 된다.
 >
->그후 마저 체크썸을 확인하고 만약 소켓의 상태가 `TCP_LISTEN`이 아니라면 포트를 그대로 사용하면서 소켓을 migrate하여 새로운 소켓으로 대체한다. `TCP_LISTEN`이라면 `sock_hold()`함수를 사용하게 된다.
+>그후 마저 체크썸을 확인하고 만약 소켓의 상태가 `TCP_LISTEN`이 아니라면 포트를 그대로 사용하면서 소켓을 migrate하여 새로운 소켓으로 대체한다. 이때 이러한 migration이 일어나는 이유는 바로 한 포트에 여러개의 소켓을 바인딩 할 수 있는 기능 때문이다. 이는 주로 서버에서 사용되며, `TCP_LISTEN`이라면 `sock_hold()`함수를 사용하게 된다.
 >
 >그후 `tcp_filter()`함수를 호출하여 드랍여부를 조사하게 된다. 이것을 바탕으로 컨트롤 블럭에 메타데이터를 세팅해주고, `tcp_check_req()`함수를 호출하여 새로운 flow를 만들게 되는 것이다.
 >여기서는 `sock_put()`함수를 통해 작업이 수행되게 된다. 그후 0을 return하게 된다.

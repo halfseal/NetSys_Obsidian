@@ -40,5 +40,7 @@ ip_find()
 Find the correct entry in the "incomplete datagrams" queue for
 this IP datagram, and create new one, if nothing is found.
 
-[[ip_find() incomplete]]
+>`ip_find()`함수를 통해 해당 flow에 맞는 queue header를 찾게 된다. 
+
+[[ip_find()]]
 [[ip_frag_queue() incomplete]]

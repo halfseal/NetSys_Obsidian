@@ -6,13 +6,9 @@ Location: /include/net/dst.h
 ---
 ```c title=dst_input코드
 static inline int dst_input(struct sk_buff *skb)
-
 {
-
-return INDIRECT_CALL_INET(skb_dst(skb)->input,
-
-ip6_input, ip_local_deliver, skb);
-
+	return INDIRECT_CALL_INET(skb_dst(skb)->input,
+				  ip6_input, ip_local_deliver, skb);
 }
 ```
 
@@ -20,4 +16,3 @@ ip6_input, ip_local_deliver, skb);
 >`dst_entry`는 패킷을 처리하는데 네트워크 경로에 대한 정보를 저장하는 구조체이다. `skb` 구조체 안에 포인터로 가르키고 있으며, `input`과 `output` 함수 포인터를 가지고 있다. 각각 패킷이 입력될 때와 출력될 때 호출되는 함수들이다.
 
 [[ip_local_deliver()]]
-[[ip6_input()]]
