@@ -20,7 +20,9 @@ static inline __must_check int sk_add_backlog(struct sock *sk, struct sk_buff *s
 }
 ```
 
-
+sk_rcv_queue 가 가득차 있는지 확인한다. 공간이 없으면 에러 메세지 출력한다.
+pfmemalloc인 경우 에러메세지 리턴. socket이 pfmemalloc을 건드릴수있는지 확인.
+sk_add_backlog() 실행한다.
 
 ```c
 /* OOB backlog add */
@@ -38,3 +40,4 @@ static inline void __sk_add_backlog(struct sock *sk, struct sk_buff *skb)
 	skb->next = NULL;
 }
 ```
+

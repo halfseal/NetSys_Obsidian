@@ -18,19 +18,67 @@
             }
           },
           {
-            "id": "cba6ce32b281d2f7",
+            "id": "b805424587ce5f8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4b0b16bac27972e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "146ba08c055a3b18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f24d96348b1b20bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tcp_cong_control().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7ce4176c06cee4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_add_backlog().md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -96,7 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
+    "width": 295.5004348754883,
     "collapsed": true
   },
   "right": {
@@ -113,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md"
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md"
               }
             }
           }
@@ -179,16 +227,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cba6ce32b281d2f7",
+  "active": "146ba08c055a3b18",
   "lastOpenFiles": [
     "Excalidraw/함수 콜 스택update.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_add_backlog().md",
-    "skb_try_coalesce().md",
-    "skb_condense().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/sk_add_backlog().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_owned_by_user().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
+    "tcp_cong_control().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_add_backlog().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/sk_add_backlog().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_condense().md",
+    "2024-2 URP 연구계획서.md",
+    "ksoftirqd.md",
+    "README.md",
+    "Vault.md",
+    "test092424hhjj.md",
+    "__napi_schedule_irqoff().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_owned_by_user().md",
     "황재훈/Research Intern/081324/netif_receive_skb().md",
     "Excalidraw/함수 콜 스택.md",
     "함수 콜 스택update.md",
@@ -196,19 +253,10 @@
     "Excalidraw/RPS-IPI 관계도.md",
     "Excalidraw/함수 콜 스택.png",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_slow().md",
-    "test092424hhjj.md",
     "김기수/산협 프로젝트 2/백서 제작용/pfmemalloc이란.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_early_demux().md",
     "Tags",
-    "김기수/산협 프로젝트 2/백서 제작용/ip6_input().md",
-    "김기수/산협 프로젝트 2/미팅 노트/9월 미팅.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_find() incomplete.md",
-    "김기수/산협 프로젝트 2/미팅 노트/9.20 미팅.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_protocol_deliver_rcu().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver_finish().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_defrag().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
     "Untitled 1.canvas",
     "images/Pasted image 20240904101222.png",
