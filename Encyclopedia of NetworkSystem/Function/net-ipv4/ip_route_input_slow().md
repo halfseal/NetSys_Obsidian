@@ -255,5 +255,8 @@ martian_source:
 >
 >그 다음으로 호출하는 함수는 `fib_lookup()`이다. 이 함수는 parameter로 받은 flp에다가 fib 정보를 저장하게 된다. 그리고 `fib_result`를 세팅하게 될 것이다.
 
+--9월 20일 미팅 --
+>end-to-end 경로만 살펴 볼 것이므로, `local_input`라벨로 가는 것만 살펴 볼 것이다. 우선 `fib_lookup()`함수를 호출하여 포인터 타입으로 넘겨준 `fib_result`타입의 `res`변수에다가 `type`필드에 해당 패킷이 어디로 가야 할지 enum을 통해 설정하게 되고, 이 값은 `RTN_LOCAL`이 된다. 따라서 `local_input`라벨로 가게 되는 것이다. 이후 `dst_entry` 구조체를 세팅하고 함수가 리턴된다.
+
 
 [[fib_lookup()]]

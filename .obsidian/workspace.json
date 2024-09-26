@@ -11,9 +11,11 @@
             "id": "914250b3f074acee",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/함수 콜 스택update.md"
+                "file": "Excalidraw/함수 콜 스택update.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -77,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5004348754883,
-    "collapsed": true
+    "width": 295.5004348754883
   },
   "right": {
     "id": "221962cf3b17c5ce",
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md"
+                "file": "Excalidraw/함수 콜 스택update.md"
               }
             }
           }
@@ -227,9 +227,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "146ba08c055a3b18",
+  "active": "914250b3f074acee",
   "lastOpenFiles": [
+    "Excalidraw/RPS-IPI 관계도.md",
+    "Excalidraw/함수 콜 스택.png",
+    "Excalidraw/주요 개념 구조도.md",
     "Excalidraw/함수 콜 스택update.md",
+    "Excalidraw/함수 콜 스택.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
     "tcp_cong_control().md",
@@ -247,15 +251,10 @@
     "__napi_schedule_irqoff().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_owned_by_user().md",
     "황재훈/Research Intern/081324/netif_receive_skb().md",
-    "Excalidraw/함수 콜 스택.md",
     "함수 콜 스택update.md",
     "함수 콜 스택.md",
-    "Excalidraw/RPS-IPI 관계도.md",
-    "Excalidraw/함수 콜 스택.png",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_slow().md",
     "김기수/산협 프로젝트 2/백서 제작용/pfmemalloc이란.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_early_demux().md",
     "Tags",
     "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
     "Untitled 1.canvas",

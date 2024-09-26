@@ -265,17 +265,25 @@ do_time_wait:
 }
 ```
 
->우선 `skb->data`를 통해 tcp header를 가르키는 포인터를 가져오게 된다.
+>첫 번째로 `skb->pkt_type`을 검사하여 이것이 `PACKET_HOST`가 아니라면 이를 버리게 된다. 이는 이 패킷의 목적지가 본인인지 확인하는 조건문이다.
+>우선 `skb->data`를 통해 tcp header를 가르키는 포인터를 `th`에다가 가져오게 된다.
 >그 후, `__inet_lookup_skb()`함수를 통해 소켓을 가져오게 되고, 만약 해당하는 TCP 소켓이 없다면 `no_tcp_socket`라벨로 건너뛰게 된다.
 >
->TCP 소켓을 확인하였다면 `process` 라벨 아래 코드들이 실행되는데, `sk_state`값을 확인하여 작업을 이어나간다.
+>TCP 소켓을 확인하였다면 `process` 라벨 아래 코드들이 실행되는데, `sk->sk_state`값을 확인하여 작업을 이어나간다.
 >
- `sk_state == TCP_NEW_SYN_RECV` 조건문으로 3-way handshake 작업이 수행되게 되는데, `request_sock` 타입의 구조체로 `sock`을 캐스팅하여 `req` 변수로 다루게 된다. `xfrm4_policy_check()` 함수를 통해 패킷의 드랍 여부를 판단하고, 만약 드랍 이유가 발생하였다면 드랍하게 된다.
+ `sk_state == TCP_NEW_SYN_RECV` 조건문으로 3-way handshake 작업이 수행되게 되는데, `request_sock` 타입의 구조체로 `sock`을 캐스팅하여 `req` 변수로 다루게 된다.  여기서 `request_sock`은 `sock`을 감싸고 있는 구조체이다.
+이후,  `xfrm4_policy_check()` 함수를 통해 패킷의 드랍 여부를 판단하고, 만약 드랍 이유가 발생하였다면 드랍하게 된다.
 >
->그후 마저 체크썸을 확인하고 만약 소켓의 상태가 `TCP_LISTEN`이 아니라면 포트를 그대로 사용하면서 소켓을 migrate하여 새로운 소켓으로 대체한다. `TCP_LISTEN`이라면 `sock_hold()`함수를 사용하게 된다.
+>그후 마저 체크썸을 확인하고 만약 소켓의 상태가 `TCP_LISTEN`이 아니라면 포트를 그대로 사용하면서 소켓을 migrate하여 새로운 소켓으로 대체한다. 이때 이러한 migration이 일어나는 이유는 바로 한 포트에 여러개의 소켓을 바인딩 할 수 있는 기능 때문이다. 이는 주로 서버에서 사용되며, 하나의 포트로 수많은 요청이 올 것이 예상 될 때 사용하는 기술이다. 이를 통해 단일 연결에서 많은 요청을 적절하게 분산 처리할 수 있다는 장점이 있다. `TCP_LISTEN`이라면 `sock_hold()`함수를 사용하여 참조카운트를 증가시키게 된다.
+>그렇게 `nsk`에는 새로 demultiplexing 된 listen 상태의 소켓이 설정되고, 이를 `sk`에 복사함으로써 새로운 소켓이 해당 패킷에 붙게 된다.
 >
->그후 `tcp_filter()`함수를 호출하여 드랍여부를 조사하게 된다. 이것을 바탕으로 컨트롤 블럭에 메타데이터를 세팅해주고, `tcp_check_req()`함수를 호출하여 새로운 flow를 만들게 되는 것이다.
->여기서는 `sock_put()`함수를 통해 작업이 수행되게 된다. 그후 0을 return하게 된다.
+>이후 `nsk`는 `NULL`로 초기화 되고, 그후 `tcp_filter()`함수를 호출하여 드랍여부를 조사하게 된다. 이 때 `tcp_filter()`함수는 tcp 헤더를 다시 설정해주고 `sk_filter_trim_cap()`함수를 호출한다. 이 함수는 해당 소켓의 `sk->sk_filter->prog`을 가지고 eBPF를 실행하게 된다. 이 함수는 skb의 길이를 조절하여 주는 역할을 하고 있다. 이때 실행되는 함수는 `sk_attach_filter()`라는 함수를 통해 해당 소켓에다가 할당하고자 하는 eBPF 함수를 할당해 줄 수 있다.
+> 위의 내용들을 바탕으로 컨트롤 블럭에 메타데이터를 세팅해주고, `tcp_check_req()`함수를 호출하여 새로운 flow를 만들게 되는 것이다. 새로운 SYN 패킷이 유효하다면, 이를 바탕으로 해당 소켓의 child 소켓으로 새로운 `ESTABLISHED` 상태의 소켓을 만들어서 이를 반환하게 된다.
+> 그게 아니라면 패킷을 드랍하게 된다.
+> 
+>만약 위에서 새롭게 만들어진 자식 소켓이 아니거나 본인 소켓이 아닌경우, 즉 `tcp_check_req()`의 return이 `NULL`일 경우 해당 `request_sock`구조체의 참조 카운터를 지우게 된다. 이 때 만약 참조 카운터가 0이 될 경우 그 때는 해당 소켓 구조체를 할당해제하게 된다. 만약 해당 소켓의 `req_stolen`이 참인 경우, 즉 다른 core가 exclusive access를 얻고 새로운 소켓을 만들었을 경우 control block 정보를 skb의 cb 필드에다가 복사한 후(`tcp_v4_restore_cb()`), 해당 소켓을 해제하게 된다(`sock_put()`). 이 후 다시 `lookup:`라벨로 이동하게 된다. 만약 `req_stolen`이 false라면 이 패킷을 버리고 release하게 된다.
+>
+>여기서부터는 nsk가 존재하는 경우이다. 이 때, 정상적으로 새로운 connection이 만들어졌다면, `nsk`는 `ESTABLISHED`상태의 child 소켓일거고, 만약 잘못된 ack를 수신하거나 fastopen 옵션이 설정되어 있을 경우(fastopen은 process context에서 tcp_check_req함수가 호출될 때 true이다. 아니라면 BH context에서 호출되고 있다는 뜻이다.)에는 원래 본인의 `sk`가 부여되어 있을 것이다.
 
 
 >여기서부터는 새로운 flow가 아닌 부분들이다. 만약 `SYN`패킷이라면 위에서 처리가 끝났다.
