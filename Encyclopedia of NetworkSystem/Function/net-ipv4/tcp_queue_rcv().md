@@ -1,4 +1,5 @@
 \_\_skb_queue_tail()로 sk_receive_queue에 skb를 추가한다
+여기서도 `tcp_try_coalesce()`를 시도한다.
 
 ```c
 static int __must_check tcp_queue_rcv(struct sock *sk, struct sk_buff *skb,
@@ -18,4 +19,3 @@ static int __must_check tcp_queue_rcv(struct sock *sk, struct sk_buff *skb,
 	return eaten;
 }
 ```
-

@@ -95,15 +95,19 @@ bool skb_try_coalesce(struct sk_buff *to, struct sk_buff *from,
 }
 ```
 
-pkt들을 합치는 과정이다. to skb에다 from skb를 합친다. 
-skb들이 frag_list를 가지고 있거나 zero copy가 된 경우에는 합치지 못한다.
+pkt들을 합치는 함수이다. to skb에다 from skb를 합친다. 
+to skb는 sk backlog에 가장 마지막 skb이고 from skb는 backlog에 올리고자하는 skb이다.
+skb들이 clone된 상태거나, frag_list를 가지고 있거나 zero copy가 된 경우에는 합치지 못한다.
 만약 to skb에 공간이 충분하다면
 `if (len <= skb_tailroom(to)) {`
 `BUG_ON(skb_copy_bits(from, 0, skb_put(to, len), len));`
 to 에 data를 옮겨주고 리턴한다.
 
-공간이 부족한 경우, 
-from skb의 fragment들을 to skb에다 memcpy해준다. 
+공간이 부족한 경우, from skb의 frag들을 to skb로 이동시켜주는 방식으로 합친다.
+from skb의 fragment들을 to skb frags[]에다 memcpy해준다. 
+
 `skb_fill_page_desc(to, to_shinfo->nr_frags, page, offset, skb_headlen(from));`
+위의 함수로 from skb의 head에 존재하는 data를 to skb의 page로 넣는다.
+to skb가 nr_frags 번째 frag가 page 안의 skb_headlen(from)만큼의 데이터를 offset에서 부터 가르키게 만든다. 
 
 to skb의 true size를 업데이트 해준다. 
