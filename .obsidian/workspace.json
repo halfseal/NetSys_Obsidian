@@ -271,8 +271,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -292,6 +291,10 @@
   },
   "active": "e50fad5ce842399b",
   "lastOpenFiles": [
+    "tcp_cong_control().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_condense().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
     "김기수/산협 프로젝트 2/백서 제작용/sock_rps_save_rxhash().md",
     "Excalidraw/함수 콜 스택update.md",
@@ -315,10 +318,6 @@
     "황재훈/Research Intern/082924/tcp_v4_rcv().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_slow().md",
     "Excalidraw/RPS-IPI 관계도.md",
-    "Excalidraw/함수 콜 스택.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_protocol_deliver_rcu().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver_finish().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver().md",
     "Tags",
     "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
     "Untitled 1.canvas",

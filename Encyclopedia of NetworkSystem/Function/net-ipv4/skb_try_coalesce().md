@@ -25,7 +25,7 @@ bool skb_try_coalesce(struct sk_buff *to, struct sk_buff *from,
 	 */
 	if (to->pp_recycle != from->pp_recycle)
 		return false;
-
+	//important
 	if (len <= skb_tailroom(to)) {
 		if (len)
 			BUG_ON(skb_copy_bits(from, 0, skb_put(to, len), len));
@@ -56,6 +56,7 @@ bool skb_try_coalesce(struct sk_buff *to, struct sk_buff *from,
 		page = virt_to_head_page(from->head);
 		offset = from->data - (unsigned char *)page_address(page);
 
+		//important
 		skb_fill_page_desc(to, to_shinfo->nr_frags,
 				   page, offset, skb_headlen(from));
 		*fragstolen = true;
@@ -96,5 +97,13 @@ bool skb_try_coalesce(struct sk_buff *to, struct sk_buff *from,
 
 pkt들을 합치는 과정이다. to skb에다 from skb를 합친다. 
 skb들이 frag_list를 가지고 있거나 zero copy가 된 경우에는 합치지 못한다.
+만약 to skb에 공간이 충분하다면
+`if (len <= skb_tailroom(to)) {`
+`BUG_ON(skb_copy_bits(from, 0, skb_put(to, len), len));`
+to 에 data를 옮겨주고 리턴한다.
+
+공간이 부족한 경우, 
 from skb의 fragment들을 to skb에다 memcpy해준다. 
+`skb_fill_page_desc(to, to_shinfo->nr_frags, page, offset, skb_headlen(from));`
+
 to skb의 true size를 업데이트 해준다. 

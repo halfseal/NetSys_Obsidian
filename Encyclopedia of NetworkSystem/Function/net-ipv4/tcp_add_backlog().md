@@ -149,5 +149,5 @@ condense, coalesce 를 마치고 나서 `sk_add_backlog()` 실행한다.
 gso 관련 parameter가 나온다. (gso size, gso segs) coalescing 할 때 쓰이는데 좀더 찾아봐야할듯
 
 [[skb_condense()]]
-[[skb_try_coalesce()]] TODO
+[[skb_try_coalesce()]] 
 [[sk_add_backlog()]]

@@ -222,13 +222,28 @@ discard:
 >맨 처음에 `skb->data`를 캐스팅하여 tcp header를 얻게 된다. 또한, 주어진 소켓을 통해 tcp_sock타입의 포인터를 획득한다.
 
 ---
-if ((s32)(tp->rx_opt.rcv_tsval - tp->rx_opt.ts_recent) < 0)
-	goto slow_path;
-이부분이 out of order packet 와 연관이 있을지도 시간의 대소를 비교해본다.....  timestamp value
 
+`trace_tcp_probe()` 
+
+fast path, slow path으로 나누어진다.
+tcp flag, sequence number, ack number가 일치한다면 fast path으로 실행한다. 
+
+`if ((s32)(tp->rx_opt.rcv_tsval - tp->rx_opt.ts_recent) < 0)`
+tsval은 sender가 저장한 timestamp, 보낼 때 찍은 시간이다.
+ts_recent는 receiver가 저장한 timestamp, 마지막으로 받은 pkt의 tsval를 저장한다.
+만약 받은 패킷의 tsval이 recevier가 저장한 ts_recent 보다 작다는 것은 가장 최근에 받은 패킷보다
+먼저 생성이 되었던 패킷이라는 뜻이다. 즉 이는 문제가 있는 패킷이라는 뜻이라 다시 slow path로 
+보낸다.
+
+`tcp_ack()`를 실행한다. TCP congestion controll 과 관련된 기능이 이 함수에서 호출된다.
+`tcp_cong_control(), tcp_cwnd_reduction(),....`
+
+`if ((int)skb->truesize > sk->sk_forward_alloc)`
 truesize와 sk_forward_alloc을 비교한다. Receive socket buffer에 새로운 패킷 데이터를 추가할 여유 공간이 있는지 확인한다. 공간이 있으면 header prediction은 hit (prediction 성공)이다. \_\_skb_pull를 호출해서 TCP 헤더를 제거하고 tcp_queue_rcv() 호출한고, \_\_skb_queue_tail을 호출해서 패킷을 receive socket buffer에 추가한다. 마지막으로, \_\_tcp_ack_snd_check를 호출해서 ACK 전송이 필요하면 전송한다.
 
 만약 여유 공간이 부족하면 느린 경로를 수행한다. tcp_data_queue 함수는 버퍼 공간을 새로 할당하고 데이터 패킷을 소켓 버퍼에 추가한다. 이때 가능하면 receive socket buffer 크기를 자동으로 증가한다. 빠른 경로와 다르게, tcp_data_snd_check를 호출해서 새로운 데이터 패킷을 전송할 수 있으면 전송하고, 끝으로 tcp_ack_snd_check 호출해서 ACK 전송이 필요하면 ACK 패킷을 생성해서 전송한다.
 
+
+[[tcp_ack()]]
 [[tcp_queue_rcv()]]
 [[tcp_data_queue()]]
