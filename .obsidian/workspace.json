@@ -11,15 +11,38 @@
             "id": "7519b0f572b19ce0",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/함수 콜 스택update.md"
+              }
+            }
+          },
+          {
+            "id": "a9432c9902341689",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
+                "file": "test.txt.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2602d303abda18e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tcp_rcv_estab",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,13 +104,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 295.5004348754883,
-    "collapsed": true
+    "width": 295.5004348754883
   },
   "right": {
     "id": "221962cf3b17c5ce",
@@ -103,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
+                "file": "test.txt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
+                "file": "test.txt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md"
+                "file": "test.txt.md"
               }
             }
           }
@@ -169,19 +190,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7519b0f572b19ce0",
+  "active": "7ea4e7661fd86bb6",
   "lastOpenFiles": [
+    "Excalidraw/함수 콜 스택update.md",
+    "test.txt.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_queue().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_queue_ofo().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
     "황재훈/Research Intern/082924/tcp_rcv_established().md",
-    "Excalidraw/함수 콜 스택update.md",
     "Excalidraw/함수 콜 스택.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/inet_gro_receive().md",
     "박찬서/9.20 미팅.md",
     "황재훈/Research Intern/081324/081324.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_cong_control().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
     "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_add_backlog().md",
@@ -198,7 +220,6 @@
     "Excalidraw/주요 개념 구조도.md",
     "Excalidraw/RPS-IPI 관계도.md",
     "Excalidraw/미확인 641970.crdownload",
-    "conflict-files-obsidian-git.md",
     "Tags",
     "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
     "Untitled 1.canvas",
