@@ -4,126 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ca80c5910eae5296",
+        "id": "5221ee9d0e39cf44",
         "type": "tabs",
-        "dimension": 53.98230088495575,
         "children": [
           {
-            "id": "9c4df21a9afcec95",
+            "id": "acf1cd99e9a4376d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e50fad5ce842399b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
-                "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "d64bab9f2f4e08ab",
-        "type": "split",
-        "dimension": 46.017699115044245,
-        "children": [
-          {
-            "id": "41e726f674078978",
-            "type": "tabs",
-            "dimension": 48.42022116903634,
-            "children": [
-              {
-                "id": "24dbf5ae2f9d1594",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "e6c25eddc1db6aff",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/함수 콜 스택update.md"
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "7e08d73b50caf688",
-            "type": "tabs",
-            "dimension": 51.57977883096366,
-            "children": [
-              {
-                "id": "06a84f1fd1c0fe26",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 0.6698913850825825,
-                      "close": false
-                    }
-                  }
-                }
-              },
-              {
-                "id": "09afff6c3a751974",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "221962cf3b17c5ce",
@@ -206,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md"
+                "file": "Excalidraw/함수 콜 스택update.md"
               }
             }
           },
@@ -289,35 +184,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e50fad5ce842399b",
+  "active": "7ea4e7661fd86bb6",
   "lastOpenFiles": [
-    "tcp_cong_control().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_condense().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
-    "김기수/산협 프로젝트 2/백서 제작용/sock_rps_save_rxhash().md",
     "Excalidraw/함수 콜 스택update.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_check_req().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
     "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md",
+    "Excalidraw/함수 콜 스택.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_filter().md",
     "김기수/산협 프로젝트 2/미팅 노트/9.20 미팅.md",
     "김기수/산협 프로젝트 2/미팅 노트/9.11 미팅.md",
-    "test092424hhjj.md",
     "test.txt",
-    "skb_try_coalesce().md",
-    "skb_condense().md",
+    "tcp_filter().md",
+    "tcp_cong_control().md",
     "conflict-files-obsidian-git.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_condense().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_find().md",
     "김기수/산협 프로젝트 2/백서 제작용/ip6_input().md",
     "김기수/산협 프로젝트 2/미팅 노트/9월 미팅.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_find() incomplete.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
+    "김기수/산협 프로젝트 2/백서 제작용/sock_rps_save_rxhash().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_check_req().md",
+    "test092424hhjj.md",
+    "skb_try_coalesce().md",
+    "skb_condense().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/`__inet_lookup_skb().md",
-    "황재훈/Research Intern/082924/tcp_v4_rcv().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_slow().md",
-    "Excalidraw/RPS-IPI 관계도.md",
     "Tags",
     "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
     "Untitled 1.canvas",

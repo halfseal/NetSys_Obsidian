@@ -220,6 +220,8 @@ discard:
 ```
 
 >맨 처음에 `skb->data`를 캐스팅하여 tcp header를 얻게 된다. 또한, 주어진 소켓을 통해 tcp_sock타입의 포인터를 획득한다.
+> flag들과 seqeunce, ack num 이 모두 같은지 확인하고, `tcp_sock`구조체에서 정의된`tcp_header_len`이 주어진 tcp 헤더와 길이가 일치하는지 확인하고, `tcp_parse_aligned_timestamp()`함수를 통해 slow_path인지 확인한다.
+> 여기서 `tcp_parse_aligned_timestamp()`함수를 잠깐 살펴보자면, th
 
 ---
 
