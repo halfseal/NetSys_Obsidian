@@ -283,16 +283,23 @@ do_time_wait:
 > 
 >만약 위에서 새롭게 만들어진 자식 소켓이 아니거나 본인 소켓이 아닌경우, 즉 `tcp_check_req()`의 return이 `NULL`일 경우 해당 `request_sock`구조체의 참조 카운터를 지우게 된다. 이 때 만약 참조 카운터가 0이 될 경우 그 때는 해당 소켓 구조체를 할당해제하게 된다. 만약 해당 소켓의 `req_stolen`이 참인 경우, 즉 다른 core가 exclusive access를 얻고 새로운 소켓을 만들었을 경우 control block 정보를 skb의 cb 필드에다가 복사한 후(`tcp_v4_restore_cb()`), 해당 소켓을 해제하게 된다(`sock_put()`). 이 후 다시 `lookup:`라벨로 이동하게 된다. 만약 `req_stolen`이 false라면 이 패킷을 버리고 release하게 된다.
 >
->여기서부터는 nsk가 존재하는 경우이다. 이 때, 정상적으로 새로운 connection이 만들어졌다면, `nsk`는 `ESTABLISHED`상태의 child 소켓일거고, 만약 잘못된 ack를 수신하거나 fastopen 옵션이 설정되어 있을 경우(fastopen은 process context에서 tcp_check_req함수가 호출될 때 true이다. 아니라면 BH context에서 호출되고 있다는 뜻이다.)에는 원래 본인의 `sk`가 부여되어 있을 것이다.
+>여기서부터는 nsk가 존재하는 경우이다. 이 때, 정상적으로 새로운 connection이 만들어졌다면, `nsk`는 `ESTABLISHED`상태의 child 소켓일거고, 만약 잘못된 ack를 수신하거나 fastopen 옵션이 설정되어 있을 경우(fastopen은 process context에서 tcp_check_req함수가 호출될 때 true이다. 아니라면 BH context에서 호출되고 있다는 뜻이다.)에는 원래 본인의 `sk`가 부여되어 있을 것이다. 따라서 둘이 같은 경우, `req`의 참조카운터를 줄이게 되고, 컨트롤 블럭을 복구하게 된다.
+>그게 아니라면 `tcp_child_process()`함수를 통해 drop_reason을 받아와서 만약 유효한 경우 `tcp_v4_send_reset()`을 통해 RST 패킷을 전송하게 되고 `discard_and_relse:` 라벨로 이동한다.
+>아니면 `sock_put()`을 통해 참조 카운트를 줄이고 0을 리턴한다. 여기서 BH가 끝나게 되는 것이다.
 
 
 >여기서부터는 새로운 flow가 아닌 부분들이다. 만약 `SYN`패킷이라면 위에서 처리가 끝났다.
 >
->이후 정책값 확인, ttl 확인 및 `tcp_filter()`등을 통해 패킷을 검사하고, `tcp_v4_fill_cb()`함수를 통해 메타데이터를 채운다음, 만약 소켓의 상태가 `TCP_LISTEN`이라면 `tcp_v4_do_rcv()`함수를 호출하고, `ret`에 결과를 저장하여 `put_and_return`라벨로 건너뛰게 된다.
+>이후 정책값 확인, ttl 확인 및 `tcp_filter()`등을 통해 패킷을 검사하고, `tcp_v4_fill_cb()`함수를 통해 메타데이터를 채운다음, 
+>만약 소켓의 상태가 `TCP_LISTEN`이라면 `tcp_v4_do_rcv()`함수를 호출하고, `ret`에 결과를 저장하여 `put_and_return`라벨로 건너뛰게 된다.
 
-> 그게 아니라면 `sk_incoming_cpu_update()`를 실행한후 한번 더 조건을 확인하고 `tcp_v4_do_rcv()`함수를 실행하게 된다.
+> 그게 아니라면 `sk_incoming_cpu_update()`를 실행하여 현재 패킷을 처리하는 코어가 어느 것인지 업데이트 후 user context에서 사용 중인지를 확인하고 사용하지 않는다면 `tcp_v4_do_rcv()`함수를 실행하게 된다. 만약 사용중이라면 `tcp_add_backlog()`함수를 실행하게 된다.
 
 >`put_and_return`라벨은 보통의 정상적인 수신이 되었을 때 나타나는 루틴이며, 여기서도 `sock_out()`함수를 실행하고 `ret`을 리턴한다.
+
+>`do_time_wait:`라벨은 `tcp_v4_rcv()`함수 맨 위쪽에 만약 `sk->state`가 `TCP_TIME_WAIT`인 경우에 넘어오게 되는 부분이다. `tcp_timewait_state_process()`이 함수를 통해 잠시 기다렸다가, 결과에 따라서 switch문으로 분기하게 된다.
+>
+>먼저 `TCP_TW_SYN`의 경우 해당하는 소켓을 새로 찾아서 바꿔주고 `process:`라벨로 다시 돌아가게 된다. ACK나 RST같은 경우에도 해당하는 함수를 실행해주고(`tcp_v4_timewait_ack()`, `tcp_v4_send_rest()` 등등) 만약 `TCP_TW_SUCCESS` 라면 아무것도 안하게 된다.
 
 ---
 packet의 type이 PACKET_HOST인 경우에만 진행한다.
