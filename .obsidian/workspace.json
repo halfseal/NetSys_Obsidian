@@ -12,9 +12,31 @@
             "id": "c9014f8f31c1d7f9",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/함수 콜 스택update.md"
+              }
+            }
+          },
+          {
+            "id": "a9432c9902341689",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
+                "file": "test.txt.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2602d303abda18e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +96,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5004348754883,
-    "collapsed": true
+    "width": 295.5004348754883
   },
   "right": {
     "id": "221962cf3b17c5ce",

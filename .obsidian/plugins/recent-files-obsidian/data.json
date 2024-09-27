@@ -85,6 +85,10 @@
       "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_cong_control().md"
     },
     {
+      "basename": "tcp_v4_do_rcv()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md"
+    },
+    {
       "basename": "9.27 미팅",
       "path": "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md"
     },
