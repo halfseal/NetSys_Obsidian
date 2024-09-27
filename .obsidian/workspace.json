@@ -13,6 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Excalidraw/함수 콜 스택update.md",
                 "mode": "source",
                 "source": false
@@ -20,6 +21,51 @@
             }
           }
         ]
+=======
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish().md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e50fad5ce842399b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_slow().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d51a7cfd8d40eaf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_frag_queue() incomplete.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38f5d36a44781790",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/함수 콜 스택.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+>>>>>>> 0ef276d (feat: kisu)
       }
     ],
     "direction": "vertical"
@@ -101,7 +147,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Excalidraw/함수 콜 스택update.md",
+=======
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_frag_queue() incomplete.md",
+>>>>>>> 0ef276d (feat: kisu)
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +168,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Excalidraw/함수 콜 스택update.md",
+=======
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_frag_queue() incomplete.md",
+>>>>>>> 0ef276d (feat: kisu)
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +195,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Excalidraw/함수 콜 스택update.md"
+=======
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_frag_queue() incomplete.md"
+>>>>>>> 0ef276d (feat: kisu)
               }
             }
           },
@@ -184,6 +242,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
+<<<<<<< HEAD
   "active": "7ea4e7661fd86bb6",
   "lastOpenFiles": [
     "Excalidraw/함수 콜 스택update.md",
@@ -213,6 +272,36 @@
     "skb_try_coalesce().md",
     "skb_condense().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/`__inet_lookup_skb().md",
+=======
+  "active": "d51a7cfd8d40eaf5",
+  "lastOpenFiles": [
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_defrag().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_find().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver().md",
+    "Encyclopedia of NetworkSystem/Function/include-net/dst_input().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish_core().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_early_demux().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_slow().md",
+    "Excalidraw/함수 콜 스택.md",
+    "김기수/산협 프로젝트 2/백서 제작용/pfmemalloc이란.md",
+    "conflict-files-obsidian-git.md",
+    "김기수/산협 프로젝트 2/미팅 노트/9.20 미팅.md",
+    "김기수/산협 프로젝트 2/미팅 노트/9.11 미팅.md",
+    "김기수/산협 프로젝트 2/백서 제작용/ip6_input().md",
+    "김기수/산협 프로젝트 2/미팅 노트/9월 미팅.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_find() incomplete.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_protocol_deliver_rcu().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver_finish().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_frag_queue() incomplete.md",
+    "Encyclopedia of NetworkSystem/Function/include-net/fib_lookup().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/fib_table_lookup().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_rcu().md",
+    "김기수/산협 프로젝트 2/백서 제작용/hooks_ipv4란.md",
+    "김기수/산협 프로젝트 2/미팅 노트/미팅 노트.md",
+    "김기수/산협 프로젝트 2/미팅 노트/8.27 미팅.md",
+    "README.md",
+>>>>>>> 0ef276d (feat: kisu)
     "Tags",
     "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
     "Untitled 1.canvas",
