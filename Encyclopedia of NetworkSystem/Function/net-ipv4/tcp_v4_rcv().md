@@ -314,10 +314,9 @@ pskb_may_pull() 함수가 tcp header option 이 sk_buff의 kmalloc된 부분에 
 3. TCP_LISTEN인 경우
 	 tcp_v4_do_rcv() 함수 실행한다. 
 
-sock_owned_by_user() 함수는 현재 소켓이 어플리케이션에서 사용하고 있는 상황이면 true를 리턴
+`sock_owned_by_user()` 함수는 현재 소켓이 어플리케이션에서 사용하고 있는 상황인지 확인한다
 소켓이 사용되지 않는 경우에는 tcp_v4_do_rcv()를 실행하고
 소켓이 사용되는 경우에는 tcp_add_backlog()를 실행한다.
-2336
 
 TCP_listen 상태에서는 syn pkt을 기다리고 있기 때문에 위의 과정이 불필요하다.
 syn pkt에는 payload가 없어서 lock이 걸릴 일이 없기 때문이다. 
