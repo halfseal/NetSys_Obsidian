@@ -135,4 +135,19 @@ no_coalesce:
 }
 ```
 
+`skb_condense()` 함수에서 skb내의 fragment/ frag_list를 제거하려고 한다.
+frag 가 존재하고 skb의 end 와 tail을 비교해서 room이 충분히 존재할 경우
+fragment들을 여유 공간으로 옮겨주고 free한다.  pskb_pull_tail()
+이후 skb->truesize를 재조정해야한다.
+
+skb들을 합치는 skb coalescing 과정을 거친다. 
+sk backlog의 가장 마지막 skb를 가져와서 그것의 tcp header를 찾는다.
+마지막 skb를 최근에 들어온 skb와 합칠 수 있는지 확인해본다. seq, ip destination, flag 등을 비교.
+조건이 맞을 경우 `skb_try_coalesce()` 실행한다.
+condense, coalesce 를 마치고 나서 `sk_add_backlog()` 실행한다.
+
+gso 관련 parameter가 나온다. (gso size, gso segs) coalescing 할 때 쓰이는데 좀더 찾아봐야할듯
+
+[[skb_condense()]]
+[[skb_try_coalesce()]] 
 [[sk_add_backlog()]]

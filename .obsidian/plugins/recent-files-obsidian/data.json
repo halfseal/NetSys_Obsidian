@@ -1,160 +1,144 @@
 {
   "recentFiles": [
     {
-      "basename": "함수 콜 스택",
-      "path": "Excalidraw/함수 콜 스택.md"
+      "basename": "tcp_data_ready()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md"
     },
     {
-      "basename": "주요 개념 구조도",
-      "path": "Excalidraw/주요 개념 구조도.md"
+      "basename": "sk_add_backlog()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/sk_add_backlog().md"
     },
     {
-      "basename": "NF_HOOK()",
-      "path": "Encyclopedia of NetworkSystem/Function/include-linux/NF_HOOK().md"
+      "basename": "`__inet_lookup_skb()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/`__inet_lookup_skb().md"
     },
     {
-      "basename": "pfmemalloc이란",
-      "path": "김기수/산협 프로젝트 2/백서 제작용/pfmemalloc이란.md"
+      "basename": "Pasted image 20240901180451",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/img/Pasted image 20240901180451.png"
     },
     {
-      "basename": "nf_hook()_",
-      "path": "Encyclopedia of NetworkSystem/Function/include-linux/nf_hook()_.md"
-    },
-    {
-      "basename": "ip_rcv_finish()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish().md"
-    },
-    {
-      "basename": "ip_rcv_finish_core()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish_core().md"
-    },
-    {
-      "basename": "hooks_ipv4란",
-      "path": "김기수/산협 프로젝트 2/백서 제작용/hooks_ipv4란.md"
-    },
-    {
-      "basename": "8.27 미팅",
-      "path": "김기수/산협 프로젝트 2/미팅 노트/8.27 미팅.md"
-    },
-    {
-      "basename": "9월 미팅",
-      "path": "김기수/산협 프로젝트 2/미팅 노트/9월 미팅.md"
-    },
-    {
-      "basename": "deliver_skb()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-core/deliver_skb().md"
-    },
-    {
-      "basename": "dst_input()",
-      "path": "Encyclopedia of NetworkSystem/Function/include-net/dst_input().md"
-    },
-    {
-      "basename": "l3mdev_ip_rcv()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/l3mdev_ip_rcv().md"
-    },
-    {
-      "basename": "nf_hook_slow()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-netfilter/nf_hook_slow().md"
-    },
-    {
-      "basename": "nf_hook_entry_hookfn()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-netfilter/nf_hook_entry_hookfn().md"
-    },
-    {
-      "basename": "ip_rcv()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv().md"
-    },
-    {
-      "basename": "__netif_receive_skb_core()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-core/__netif_receive_skb_core().md"
-    },
-    {
-      "basename": "napi_struct",
-      "path": "Encyclopedia of NetworkSystem/Struct/include-linux/napi_struct.md"
-    },
-    {
-      "basename": "get_rps_cpu()",
-      "path": "황재훈/Research Intern/081324/get_rps_cpu().md"
-    },
-    {
-      "basename": "RPS-IPI 관계도",
-      "path": "Excalidraw/RPS-IPI 관계도.md"
-    },
-    {
-      "basename": "get_rps_cpu() 함수에 대한 로직 분석과 고찰 및 의의",
-      "path": "김기수/산협 프로젝트 2/백서 제작용/get_rps_cpu() 함수에 대한 로직 분석과 고찰 및 의의.md"
-    },
-    {
-      "basename": "ip_rcv_core()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_core().md"
-    },
-    {
-      "basename": "skb_record_rx_queue()",
-      "path": "Encyclopedia of NetworkSystem/Function/include-linux/skb_record_rx_queue().md"
-    },
-    {
-      "basename": "netif_napi_add()",
-      "path": "Encyclopedia of NetworkSystem/Function/include-linux/netif_napi_add().md"
+      "basename": "tcp4_gro_complete()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_complete().md"
     },
     {
       "basename": "tcp4_gro_receive()",
       "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_receive().md"
     },
     {
-      "basename": "napi_schedule_rps()",
-      "path": "황재훈/Research Intern/081324/napi_schedule_rps().md"
+      "basename": "tcp_rcv_established()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md"
     },
     {
-      "basename": "net_rx_action()",
-      "path": "황재훈/Research Intern/081324/net_rx_action().md"
+      "basename": "tcp_ack()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md"
     },
     {
-      "basename": "netif_receive_skb_internal()",
-      "path": "황재훈/Research Intern/081324/netif_receive_skb_internal().md"
-    },
-    {
-      "basename": "netif_receive_skb()",
-      "path": "황재훈/Research Intern/081324/netif_receive_skb().md"
-    },
-    {
-      "basename": "rps_sock_flow_table",
-      "path": "황재훈/Research Intern/081324/rps_sock_flow_table.md"
-    },
-    {
-      "basename": "zzmiscell",
-      "path": "황재훈/Research Intern/081324/zzmiscell.md"
-    },
-    {
-      "basename": "ip_rcv",
-      "path": "황재훈/Research Intern/082924/ip_rcv.md"
-    },
-    {
-      "basename": "tcp_v4_rcv()",
-      "path": "황재훈/Research Intern/082924/tcp_v4_rcv().md"
-    },
-    {
-      "basename": "okfn()",
-      "path": "황재훈/Research Intern/082924/okfn().md"
-    },
-    {
-      "basename": "tcp_v4_rcv()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md"
+      "basename": "함수 콜 스택update",
+      "path": "Excalidraw/함수 콜 스택update.md"
     },
     {
       "basename": "tcp_v4_do_rcv()",
       "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md"
     },
     {
-      "basename": "sock_rps_save_rxhash()",
-      "path": "김기수/산협 프로젝트 2/백서 제작용/sock_rps_save_rxhash().md"
-    },
-    {
       "basename": "tcp_child_process()",
       "path": "김기수/산협 프로젝트 2/백서 제작용/tcp_child_process().md"
     },
     {
-      "basename": "tcp_rcv_established()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md"
+      "basename": "tcp_v4_rcv()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md"
+    },
+    {
+      "basename": "9.27 미팅",
+      "path": "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md"
+    },
+    {
+      "basename": "NF_HOOK",
+      "path": "NF_HOOK.md"
+    },
+    {
+      "basename": "hooks_ipv4란",
+      "path": "김기수/산협 프로젝트 2/백서 제작용/hooks_ipv4란.md"
+    },
+    {
+      "basename": "inet_gro_receive()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/inet_gro_receive().md"
+    },
+    {
+      "basename": "ip_defrag()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_defrag().md"
+    },
+    {
+      "basename": "ice_update_rx_ring_stats()",
+      "path": "Encyclopedia of NetworkSystem/Function/drivers-net-ethernet-intel-ice/ice_update_rx_ring_stats().md"
+    },
+    {
+      "basename": "주요 개념 구조도",
+      "path": "Excalidraw/주요 개념 구조도.md"
+    },
+    {
+      "basename": "RPS-IPI 관계도",
+      "path": "Excalidraw/RPS-IPI 관계도.md"
+    },
+    {
+      "basename": "skb_try_coalesce()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md"
+    },
+    {
+      "basename": "함수 콜 스택",
+      "path": "Excalidraw/함수 콜 스택.md"
+    },
+    {
+      "basename": "ip_find()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_find().md"
+    },
+    {
+      "basename": "ip_frag_queue() incomplete",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_frag_queue() incomplete.md"
+    },
+    {
+      "basename": "ip_local_deliver()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver().md"
+    },
+    {
+      "basename": "dst_input()",
+      "path": "Encyclopedia of NetworkSystem/Function/include-net/dst_input().md"
+    },
+    {
+      "basename": "tcp_v4_early_demux()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_early_demux().md"
+    },
+    {
+      "basename": "ip_rcv_finish_core()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish_core().md"
+    },
+    {
+      "basename": "nf_hook()_",
+      "path": "Encyclopedia of NetworkSystem/Function/include-linux/nf_hook()_.md"
+    },
+    {
+      "basename": "ip_rcv",
+      "path": "황재훈/Research Intern/082924/ip_rcv.md"
+    },
+    {
+      "basename": "9.20 미팅",
+      "path": "김기수/산협 프로젝트 2/미팅 노트/9.20 미팅.md"
+    },
+    {
+      "basename": "ip_route_input_slow()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_slow().md"
+    },
+    {
+      "basename": "sock_rps_save_rxhash()",
+      "path": "김기수/산협 프로젝트 2/백서 제작용/sock_rps_save_rxhash().md"
+    },
+    {
+      "basename": "tcp_check_req()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_check_req().md"
+    },
+    {
+      "basename": "tcp_v4_rcv()",
+      "path": "황재훈/Research Intern/082924/tcp_v4_rcv().md"
     },
     {
       "basename": "ip_protocol_deliver_rcu()",
@@ -165,40 +149,56 @@
       "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver_finish().md"
     },
     {
-      "basename": "ip_local_deliver()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver().md"
+      "basename": "ip_rcv_finish()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish().md"
     },
     {
-      "basename": "ice_vsi",
-      "path": "Encyclopedia of NetworkSystem/Struct/drivers-net-ethernet-intel-ice/ice_vsi.md"
+      "basename": "미팅 노트",
+      "path": "김기수/산협 프로젝트 2/미팅 노트/미팅 노트.md"
     },
     {
-      "basename": "softnet_data",
-      "path": "Encyclopedia of NetworkSystem/Struct/include-linux/softnet_data.md"
+      "basename": "tcp_v4_do_rcv()",
+      "path": "황재훈/Research Intern/082924/tcp_v4_do_rcv().md"
     },
     {
-      "basename": "enqueue_to_backlog()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-core/enqueue_to_backlog().md"
+      "basename": "tcp_rcv_state_process()",
+      "path": "황재훈/Research Intern/082924/tcp_rcv_state_process().md"
     },
     {
-      "basename": "→ice_vsi_setup_rx_rings(vsi)",
-      "path": "김기수/산협 프로젝트 2/스터디 자료/Bottom Up path(intel-ice)/→ice_vsi_setup_rx_rings(vsi).md"
+      "basename": "tcp_queue_rcv",
+      "path": "황재훈/Research Intern/082924/tcp_queue_rcv.md"
     },
     {
-      "basename": "Bottom Up path(intel-ice)",
-      "path": "김기수/산협 프로젝트 2/스터디 자료/Bottom Up path(intel-ice)/Bottom Up path(intel-ice).md"
+      "basename": "tcp_child_process()",
+      "path": "황재훈/Research Intern/082924/tcp_child_process().md"
     },
     {
-      "basename": "ice_probe() ⇒ 실질적으로 처음 카드를 인식하는 단계",
-      "path": "김기수/산협 프로젝트 2/스터디 자료/Bottom Up path(intel-ice)/ice_probe() ⇒ 실질적으로 처음 카드를 인식하는 단계/ice_probe() ⇒ 실질적으로 처음 카드를 인식하는 단계.md"
+      "basename": "okfn()",
+      "path": "황재훈/Research Intern/082924/okfn().md"
     },
     {
-      "basename": "→ice_vsi_alloc_def()",
-      "path": "김기수/산협 프로젝트 2/스터디 자료/Bottom Up path(intel-ice)/ice_probe() ⇒ 실질적으로 처음 카드를 인식하는 단계/→ice_vsi_alloc_def()/→ice_vsi_alloc_def().md"
+      "basename": "dev_net()",
+      "path": "황재훈/Research Intern/082924/dev_net().md"
     },
     {
-      "basename": "→ ice_vsi_req_irq_msix(vsi, int_name)",
-      "path": "김기수/산협 프로젝트 2/스터디 자료/Bottom Up path(intel-ice)/→ ice_vsi_req_irq_msix(vsi, int_name)/→ ice_vsi_req_irq_msix(vsi, int_name).md"
+      "basename": "pfmemalloc이란",
+      "path": "김기수/산협 프로젝트 2/백서 제작용/pfmemalloc이란.md"
+    },
+    {
+      "basename": "fib_lookup()",
+      "path": "Encyclopedia of NetworkSystem/Function/include-net/fib_lookup().md"
+    },
+    {
+      "basename": "fib_table_lookup()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/fib_table_lookup().md"
+    },
+    {
+      "basename": "ip_route_input_rcu()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_route_input_rcu().md"
+    },
+    {
+      "basename": "8.27 미팅",
+      "path": "김기수/산협 프로젝트 2/미팅 노트/8.27 미팅.md"
     }
   ],
   "omittedPaths": []

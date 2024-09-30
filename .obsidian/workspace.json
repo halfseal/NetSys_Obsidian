@@ -4,81 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "ca80c5910eae5296",
+        "id": "5221ee9d0e39cf44",
         "type": "tabs",
         "children": [
           {
-            "id": "d9bc3290c069da9b",
+            "id": "acf1cd99e9a4376d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "김기수/산협 프로젝트 2/미팅 노트/8.27 미팅.md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9c4df21a9afcec95",
+            "id": "5c5e227541675512",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish_core().md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e50fad5ce842399b",
+            "id": "bc637a228f4f4264",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "김기수/산협 프로젝트 2/백서 제작용/hooks_ipv4란.md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/inet_gro_receive().md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d51a7cfd8d40eaf5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86a134667e9d026c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/함수 콜 스택.md"
-              }
-            }
-          },
-          {
-            "id": "5de6086a67c08f48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "김기수/산협 프로젝트 2/백서 제작용/pfmemalloc이란.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "635d3694f785b327",
+            "id": "efce06edd33e92eb",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -88,19 +54,17 @@
             }
           },
           {
-            "id": "14e96c24cf98b11b",
+            "id": "5bf501c1e99fe2cb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/include-linux/NF_HOOK().md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/주요 개념 구조도.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,12 +126,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 242.5110321044922
+    "width": 298.5,
+    "collapsed": true
   },
   "right": {
     "id": "221962cf3b17c5ce",
@@ -183,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/함수 콜 스택.md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/함수 콜 스택.md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/함수 콜 스택.md"
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md"
               }
             }
           },
@@ -234,59 +198,106 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "72e9f3112e3eb188",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "custom-sort:Toggle custom sorting": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "markdown-table-editor:Open Markdown Table Editor": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "random-note:랜덤 노트 열기": false,
-      "workspaces:작업 공간 레이아웃 관리": false
+      "workspaces:작업 공간 레이아웃 관리": false,
+      "custom-sort:Toggle custom sorting": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86a134667e9d026c",
+  "floating": {
+    "id": "b6e0e1f7d067ce25",
+    "type": "floating",
+    "children": [
+      {
+        "id": "c45e1c1fc012197f",
+        "type": "window",
+        "children": [
+          {
+            "id": "8af4d976e86b69ab",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9e47af7f41bce501",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/함수 콜 스택update.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 544,
+        "y": 198,
+        "width": 639,
+        "height": 1055,
+        "maximize": true,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "5c5e227541675512",
   "lastOpenFiles": [
-    "Excalidraw/주요 개념 구조도.md",
-    "Encyclopedia of NetworkSystem/Function/include-linux/NF_HOOK().md",
-    "Excalidraw/함수 콜 스택.md",
-    "김기수/산협 프로젝트 2/백서 제작용/pfmemalloc이란.md",
-    "Encyclopedia of NetworkSystem/Function/include-linux/nf_hook()_.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_add_backlog().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/sk_add_backlog().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_owned_by_user().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv_finish_core().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/`__inet_lookup_skb().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/img/Pasted image 20240901180451.png",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_complete().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_receive().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
+    "Excalidraw/함수 콜 스택update.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
+    "김기수/산협 프로젝트 2/백서 제작용/tcp_child_process().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+    "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md",
+    "NF_HOOK.md",
     "김기수/산협 프로젝트 2/백서 제작용/hooks_ipv4란.md",
-    "김기수/산협 프로젝트 2/미팅 노트/8.27 미팅.md",
-    "김기수/산협 프로젝트 2/미팅 노트/9월 미팅.md",
-    "Encyclopedia of NetworkSystem/Function/net-core/deliver_skb().md",
-    "Encyclopedia of NetworkSystem/Function/include-net/dst_input().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter/ipt_do_table().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/l3mdev_ip_rcv().md",
-    "Encyclopedia of NetworkSystem/Function/net-netfilter/nf_hook_slow().md",
-    "Encyclopedia of NetworkSystem/Function/net-netfilter/nf_hook_entry_hookfn().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_rcv().md",
-    "Encyclopedia of NetworkSystem/Function/net-core/__netif_receive_skb_core().md",
-    "Encyclopedia of NetworkSystem/Struct/include-linux/napi_struct.md",
-    "황재훈/Research Intern/081324/get_rps_cpu().md",
+    "test.txt.md",
+    "Untitled.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_try_coalesce().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_queue_ofo().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_cong_control().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/inet_gro_receive().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_defrag().md",
+    "Encyclopedia of NetworkSystem/Function/drivers-net-ethernet-intel-ice/ice_update_rx_ring_stats().md",
+    "Excalidraw/주요 개념 구조도.md",
     "Excalidraw/RPS-IPI 관계도.md",
-    "김기수/산협 프로젝트 2/백서 제작용/get_rps_cpu() 함수에 대한 로직 분석과 고찰 및 의의.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md",
+    "Excalidraw/함수 콜 스택.md",
+    "test.txt",
+    "Tags",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
     "Untitled 1.canvas",
-    "김기수/산협 프로젝트 2/백서 제작용/Untitled.md",
     "images/Pasted image 20240904101222.png",
     "images/Pasted image 20240904095723.png",
     "images/Pasted image 20240909150721.png",
@@ -297,15 +308,12 @@
     "Encyclopedia of NetworkSystem/Function/net-core/img/Pasted image 20240904104737.png",
     "Encyclopedia of NetworkSystem/Function/net-core/img",
     "Excalidraw/함수 콜 스택.png",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/img/Pasted image 20240901180451.png",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img",
     "Encyclopedia of NetworkSystem/Function/net-netfilter",
     "Untitled.canvas",
     "황재훈/Research Intern/pastNotion/intel ice/irq/img",
     "황재훈/Research Intern/pastNotion/intel ice/GRO/img",
     "황재훈/Research Intern/pastNotion/intel ice/DMA/img",
-    "황재훈/Research Intern/pastNotion/intel ice/NAPI/img",
-    "황재훈/Research Intern/pastNotion/intel ice/NIC 구조/img",
-    "황재훈/Research Intern/pastNotion/intel ice/dev_gro_receive()/img"
+    "황재훈/Research Intern/pastNotion/intel ice/NAPI/img"
   ]
 }
