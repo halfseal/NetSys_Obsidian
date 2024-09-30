@@ -7,7 +7,7 @@
 >새로운 hookfn을 등록하는 과정을 찾는데 많은 어려움이 있었는데, `rcu_assign_pointer`를 통해 등록이 이루어지기 때문이다.
 >따라서 `nf_hook_entry_head()`함수를 통해 찾은 entry_head를 바탕으로 여기에다가 RCU protected로 해당 `new_hooks`값을 저장하도록 하게 되어 있다.
 >
->이 등록함수는 `__nf_register_net_hook()`이다. 이 함수 안에서는 `nf_hook_entries_grow()`함수를 사용하고 있는데, 말 그대로 기존의 hook_entries를 가져와서 새로운 hook을 덧 붙여서 이를 반환하는 함수이다.
+>이 등록 함수는 `__nf_register_net_hook()`이다. 이 함수 안에서는 `nf_hook_entries_grow()`함수를 사용하고 있는데, 말 그대로 기존의 hook_entries를 가져와서 새로운 hook을 덧 붙여서 이를 반환하는 함수이다.
 >
 >어쨌든 새로운 hook을 가져오는 것이다.
 >
