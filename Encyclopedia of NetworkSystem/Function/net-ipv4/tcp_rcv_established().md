@@ -219,9 +219,22 @@ discard:
 }
 ```
 
->맨 처음에 `skb->data`를 캐스팅하여 tcp header를 얻게 된다. 또한, 주어진 소켓을 통해 tcp_sock타입의 포인터를 획득한다.
-> flag들과 seqeunce, ack num 이 모두 같은지 확인하고, `tcp_sock`구조체에서 정의된`tcp_header_len`이 주어진 tcp 헤더와 길이가 일치하는지 확인하고, `tcp_parse_aligned_timestamp()`함수를 통해 slow_path인지 확인한다.
-> 여기서 `tcp_parse_aligned_timestamp()`함수를 잠깐 살펴보자면, th
+>맨 처음에 `skb->data`를 캐스팅하여 tcp header를 얻게 된다. 또한, 주어진 소켓을 통해 `tcp_sock`타입의 포인터를 획득한다.
+>또한 `len`이라는 변수를 설정하게 되는데, `skb->len`값으로 가져오게 된다.
+> flag들과 seqeunce, ack num 이 모두 같은지 확인하고
+> 	`tcp_sock`구조체에서 정의된`tcp_header_len`이 주어진 tcp 헤더와 길이가 일치하는지 확인하고, `tcp_parse_aligned_timestamp()`함수를 통해 slow_path인지 확인한다. 이때 주어진 타임스탬프 옵션이 NOP NOP OP_num OP_len 로 포인터로 확인하여 이것이 일치하면 fast_path이다. 또한 PAWS도 확인한다.
+> 	
+> 	 그 다음으로는 `len`이 `tcp_header_len`보다 작거나 같은 경우를 확인하게 된다. 만약 `len`이 `tcp_header_len`과 같다면 이는 페이로드가 없는 순수한 `ACK` 패킷이라는 것이다.(pure sender)
+> 	 이때 만약 둘이 같다면 `tcp_ack()`함수를 통해 incoming pure ACK 패킷들을 다루게 된다.
+> 	 그리고 이 후 해당 `skb`를 할당해제하여 bottom half가 끝나게 된다.
+> 	 만약 `len`이 `tcp_header_len`보다 작다면, 이는 오류 이므로 discard 하게 된다.
+> 	 
+> 	 만약 `len` > `tcp_header_len`이라면, 이는 pure receiver라는 뜻이다. 여기서 다시 한 번 checksum 과 truesize, tcp_header_len을 확인하고, RTT를 확인하게 된다.
+> 	 이후 `skb`의 `dst_entry`를 드랍하고, tcp 헤더 길이만큼 포인터를 옮긴 다음에 남은 `skb->data`가 페이로드를 가르키게 하여 `tcp_queue_rcv()` 함수를 실행하게 한다. 	이를 `eaten` 변수에 저장하게 된다. 또한 `tcp_event_data_recv()`함수를 실행하여 cwnd가 빠르게 증가할 수 있도록 한다.
+> 	 
+> 	 그후 ack 확인을 하고 `tcp_ack()`함수를 실행한다. 또한 `tcp_data_snd_check()`함수를 실행하고, 소켓의 윈도우 크기를 업데이트 하며 만약 eaten 된 패킷이 있다면 `tcp_data_ready()`를 실행하여 
+> 
+> 
 
 ---
 
@@ -254,3 +267,4 @@ truesize와 sk_forward_alloc을 비교한다. Receive socket buffer에 새로운
 [[tcp_ack()]]
 [[tcp_queue_rcv()]]
 [[tcp_data_queue()]]
+[[tcp_data_ready()]]
