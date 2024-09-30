@@ -27,6 +27,7 @@
               "state": {
                 "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -37,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/inet_gro_receive().md",
+                "file": "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,7 +60,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/주요 개념 구조도.md"
+                "file": "Excalidraw/함수 콜 스택update.md"
               }
             }
           }
@@ -147,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md"
+                "file": "Excalidraw/함수 콜 스택update.md"
               }
             }
           },
@@ -212,7 +213,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,21 +267,23 @@
       }
     ]
   },
-  "active": "5c5e227541675512",
+  "active": "9e47af7f41bce501",
   "lastOpenFiles": [
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
+    "Excalidraw/함수 콜 스택update.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
+    "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md",
+    "Excalidraw/주요 개념 구조도.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/inet_gro_receive().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/sk_add_backlog().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/`__inet_lookup_skb().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img/Pasted image 20240901180451.png",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_complete().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_receive().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
-    "Excalidraw/함수 콜 스택update.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
     "김기수/산협 프로젝트 2/백서 제작용/tcp_child_process().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
-    "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md",
     "NF_HOOK.md",
     "김기수/산협 프로젝트 2/백서 제작용/hooks_ipv4란.md",
     "test.txt.md",
@@ -287,10 +291,8 @@
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_try_coalesce().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_queue_ofo().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_cong_control().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/inet_gro_receive().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_defrag().md",
     "Encyclopedia of NetworkSystem/Function/drivers-net-ethernet-intel-ice/ice_update_rx_ring_stats().md",
-    "Excalidraw/주요 개념 구조도.md",
     "Excalidraw/RPS-IPI 관계도.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md",
     "Excalidraw/함수 콜 스택.md",
