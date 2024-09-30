@@ -112,7 +112,7 @@ no_coalesce:
 	/* sk->sk_backlog.len is reset only at the end of __release_sock().
 	 * Both sk->sk_backlog.len and sk->sk_rmem_alloc could reach
 	 * sk_rcvbuf in normal conditions.
-	 */
+	 */set
 	limit = ((u64)READ_ONCE(sk->sk_rcvbuf)) << 1;
 
 	limit += ((u32)READ_ONCE(sk->sk_sndbuf)) >> 1;
