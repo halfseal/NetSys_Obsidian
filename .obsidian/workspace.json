@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_try_coalesce().md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,9 +63,18 @@
                 "file": "Excalidraw/함수 콜 스택update.md"
               }
             }
+          },
+          {
+            "id": "27b713e7d2a920c7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/RPS-IPI 관계도.md"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/함수 콜 스택update.md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/함수 콜 스택update.md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/함수 콜 스택update.md"
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md"
               }
             }
           },
@@ -258,23 +267,39 @@
           }
         ],
         "direction": "vertical",
-        "x": 544,
-        "y": 198,
-        "width": 639,
-        "height": 1055,
-        "maximize": true,
+        "x": 491,
+        "y": 417,
+        "width": 1219,
+        "height": 690,
+        "maximize": false,
         "zoom": -0.5
       }
     ]
   },
-  "active": "9e47af7f41bce501",
+  "active": "acf1cd99e9a4376d",
   "lastOpenFiles": [
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
     "Excalidraw/함수 콜 스택update.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
-    "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md",
-    "Excalidraw/주요 개념 구조도.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+    "Excalidraw/RPS-IPI 관계도.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_try_coalesce().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_queue_rcv().md",
+    "Excalidraw/주요 개념 구조도.md",
+    "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
+    "유지훈/미팅/240920.md",
+    "유지훈/미팅",
+    "유지훈",
+    "Pasted image 20240920053724.png",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg_locked().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg().md",
+    "Encyclopedia of NetworkSystem/Function/net-core/skb_copy_datagram_iter().md",
+    "Encyclopedia of NetworkSystem/Function/net-core/sk_wait_data().md",
+    "Encyclopedia of NetworkSystem/Function/net-core/release_sock().md",
+    "Encyclopedia of NetworkSystem/Function/net-core/__skb_datagram_iter().md",
+    "Encyclopedia of NetworkSystem/Function/net-core/__sk_flush_backlog().md",
+    "Encyclopedia of NetworkSystem/Function/net-core/__release_sock().md",
+    "Encyclopedia of NetworkSystem/Function/include-linux/skb_copy_datagram_msg().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/inet_gro_receive().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/sk_add_backlog().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/`__inet_lookup_skb().md",
@@ -283,19 +308,6 @@
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_receive().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
-    "김기수/산협 프로젝트 2/백서 제작용/tcp_child_process().md",
-    "NF_HOOK.md",
-    "김기수/산협 프로젝트 2/백서 제작용/hooks_ipv4란.md",
-    "test.txt.md",
-    "Untitled.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_try_coalesce().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_queue_ofo().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_cong_control().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_defrag().md",
-    "Encyclopedia of NetworkSystem/Function/drivers-net-ethernet-intel-ice/ice_update_rx_ring_stats().md",
-    "Excalidraw/RPS-IPI 관계도.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md",
-    "Excalidraw/함수 콜 스택.md",
     "test.txt",
     "Tags",
     "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
@@ -309,13 +321,10 @@
     "images/Pasted image 20240904100752 1.png",
     "Encyclopedia of NetworkSystem/Function/net-core/img/Pasted image 20240904104737.png",
     "Encyclopedia of NetworkSystem/Function/net-core/img",
-    "Excalidraw/함수 콜 스택.png",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img",
     "Encyclopedia of NetworkSystem/Function/net-netfilter",
     "Untitled.canvas",
     "황재훈/Research Intern/pastNotion/intel ice/irq/img",
-    "황재훈/Research Intern/pastNotion/intel ice/GRO/img",
-    "황재훈/Research Intern/pastNotion/intel ice/DMA/img",
-    "황재훈/Research Intern/pastNotion/intel ice/NAPI/img"
+    "황재훈/Research Intern/pastNotion/intel ice/GRO/img"
   ]
 }

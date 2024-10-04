@@ -22,4 +22,8 @@ static int __must_check tcp_queue_rcv(struct sock *sk, struct sk_buff *skb,
 
 tcp_try_coalesce()도 추가적인 조건을 확인하고 skb_try_coalesce()를 실행한다. 
 
+>return 할 `eaten` 변수를 선언하고, `sk_buff`타입의 `tail` 변수를 선언하게 되는데, 이는 해당 소켓의 `sk_receive_queue`에서 마지막 skb를 가져오는 것이다.이때, 이 마지막 skb와 새롭게 들어온 skb를 합치기 위해 `tcp_try_coalesce()`함수를 호출하게 된다. 만약 합치지 못하였다면, 해당 소켓의 `sk_receive_queue`에다가 그 skb를 새로 추가하게 되고, `skb_set_owner_r()`함수를 호출하게 된다.
+>
+>이후 `eaten`을 리턴하게 된다. 
+
 [[tcp_try_coalesce()]]
