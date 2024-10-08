@@ -13,26 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+                "file": "testagain.txt.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "efce06edd33e92eb",
+            "id": "4b2f6567ce399068",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Vault.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/함수 콜 스택update.md"
               }
             }
+          },
+          {
+            "id": "1f829bf8b2ee0a46",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vault.md",
+                "file": "testagain.txt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vault.md",
+                "file": "testagain.txt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vault.md"
+                "file": "testagain.txt.md"
               }
             }
           }
@@ -180,35 +185,37 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "efce06edd33e92eb",
+  "active": "bc637a228f4f4264",
   "lastOpenFiles": [
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_cong_control().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+    "Excalidraw/함수 콜 스택update.md",
+    "유지훈/미팅/240920.md",
+    "유지훈/미팅",
+    "유지훈",
+    "박찬서/ep_poll().md",
+    "박찬서/do_epoll_ctl().md",
+    "Excalidraw/함수 콜 스택.md",
+    "Vault.md",
+    "박찬서/박찬서.md",
+    "박찬서/Test3.md",
+    "박찬서/Test2.md",
+    "박찬서/Test1.md",
     "README.md",
-    "test.txt.md",
+    "testagain.txt.md",
     "NF_HOOK.md",
     "Pasted image 20240920053724.png",
     "2024-2 URP 연구계획서.md",
     "__napi_schedule_irqoff().md",
-    "유지훈/미팅/240920.md",
     "Excalidraw/주요 개념 구조도.md",
     "박찬서/9.20 미팅.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
-    "Excalidraw/함수 콜 스택update.md",
     "Untitled.md",
-    "박찬서/ep_poll().md",
     "김기수/산협 프로젝트 2/네트워크 스택 기술 개념/MSI-X.md",
     "Excalidraw/sock.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg().md",
-    "Encyclopedia of NetworkSystem/Function/net-core/release_sock().md",
-    "김기수/산협 프로젝트 2/미팅 노트/7.12 미팅/7.12 미팅.md",
-    "김기수/산협 프로젝트 2/스터디 자료/Bottom Up path(intel-ice)/→ ice_vsi_req_irq_msix(vsi, int_name)/→ ice_vsi_req_irq_msix(vsi, int_name).md",
-    "박찬서/do_epoll_ctl().md",
-    "박찬서/박찬서.md",
-    "박찬서/Test3.md",
-    "박찬서/Test2.md",
-    "박찬서/do_epoll_ctl.md",
-    "황재훈/Research Intern/082924/dev_net().md",
-    "황재훈/Research Intern/082924/okfn().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv6/ipv6_gro_complete().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img/Pasted image 20240901180451.png",
     "test.txt",
     "Tags",
@@ -227,8 +234,6 @@
     "Encyclopedia of NetworkSystem/Function/net-netfilter",
     "Untitled.canvas",
     "황재훈/Research Intern/pastNotion/intel ice/irq/img",
-    "황재훈/Research Intern/pastNotion/intel ice/GRO/img",
-    "황재훈/Research Intern/pastNotion/intel ice/DMA/img",
-    "황재훈/Research Intern/pastNotion/intel ice/NAPI/img"
+    "황재훈/Research Intern/pastNotion/intel ice/GRO/img"
   ]
 }

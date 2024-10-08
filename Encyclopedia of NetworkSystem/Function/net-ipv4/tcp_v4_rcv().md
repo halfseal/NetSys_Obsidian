@@ -194,7 +194,7 @@ no_tcp_socket:
 	drop_reason = SKB_DROP_REASON_NO_SOCKET;
 	if (!xfrm4_policy_check(NULL, XFRM_POLICY_IN, skb))
 		goto discard_it;
-	
+	  
 	tcp_v4_fill_cb(skb, iph, th);
 	  
 	if (tcp_checksum_complete(skb)) {
