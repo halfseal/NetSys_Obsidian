@@ -222,8 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,8 +266,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 491,
-        "y": 417,
+        "x": 314,
+        "y": 420,
         "width": 1219,
         "height": 690,
         "maximize": false,
@@ -276,8 +275,10 @@
       }
     ]
   },
-  "active": "acf1cd99e9a4376d",
+  "active": "72e9f3112e3eb188",
   "lastOpenFiles": [
+    "박찬서/ep_poll().md",
+    "박찬서/do_epoll_ctl().md",
     "Excalidraw/함수 콜 스택update.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
     "Excalidraw/RPS-IPI 관계도.md",
@@ -306,8 +307,6 @@
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img/Pasted image 20240901180451.png",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_complete().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_receive().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
     "test.txt",
     "Tags",
     "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
