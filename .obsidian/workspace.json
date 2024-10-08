@@ -8,7 +8,65 @@
         "type": "tabs",
         "children": [
           {
-            "id": "acf1cd99e9a4376d",
+            "id": "5c5e227541675512",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "박찬서/ep_poll().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "590fa3064bfcd045",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "유지훈/미팅/240920.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32e6f7ea25e0cffa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "박찬서/9.20 미팅.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff01082c74bacc64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9e748eb6609616e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/함수 콜 스택update.md"
+              }
+            }
+          },
+          {
+            "id": "cceb7927b4bd7bdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,24 +78,24 @@
             }
           },
           {
-            "id": "5c5e227541675512",
+            "id": "bc637a228f4f4264",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bc637a228f4f4264",
+            "id": "e83c3304103ecd24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/inet_gro_receive().md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
                 "mode": "source",
                 "source": false
               }
@@ -57,14 +115,16 @@
             "id": "5bf501c1e99fe2cb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/주요 개념 구조도.md"
+                "file": "박찬서/9.20 미팅.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +153,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nf_hook",
+                "query": "msi-x",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "221962cf3b17c5ce",
@@ -147,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
+                "file": "박찬서/9.20 미팅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
+                "file": "박찬서/9.20 미팅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,32 +246,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md"
+                "file": "박찬서/9.20 미팅.md"
               }
-            }
-          },
-          {
-            "id": "7d9f6701a299b81a",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "72e9f3112e3eb188",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,77 +267,40 @@
       "random-note:랜덤 노트 열기": false,
       "workspaces:작업 공간 레이아웃 관리": false,
       "custom-sort:Toggle custom sorting": false,
-      "digitalgarden:Digital Garden Publication Center": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "floating": {
-    "id": "b6e0e1f7d067ce25",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c45e1c1fc012197f",
-        "type": "window",
-        "children": [
-          {
-            "id": "8af4d976e86b69ab",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9e47af7f41bce501",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/함수 콜 스택update.md"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 544,
-        "y": 198,
-        "width": 639,
-        "height": 1055,
-        "maximize": true,
-        "zoom": -0.5
-      }
-    ]
-  },
-  "active": "5c5e227541675512",
+  "active": "32e6f7ea25e0cffa",
   "lastOpenFiles": [
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/sk_add_backlog().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/`__inet_lookup_skb().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/img/Pasted image 20240901180451.png",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_complete().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_receive().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
     "Excalidraw/함수 콜 스택update.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
-    "김기수/산협 프로젝트 2/백서 제작용/tcp_child_process().md",
+    "유지훈/미팅/240920.md",
+    "박찬서/9.20 미팅.md",
+    "김기수/산협 프로젝트 2/네트워크 스택 기술 개념/MSI-X.md",
+    "박찬서/ep_poll().md",
+    "Untitled.md",
+    "Excalidraw/sock.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg().md",
+    "Encyclopedia of NetworkSystem/Function/net-core/release_sock().md",
+    "Excalidraw/주요 개념 구조도.md",
+    "김기수/산협 프로젝트 2/미팅 노트/7.12 미팅/7.12 미팅.md",
+    "김기수/산협 프로젝트 2/스터디 자료/Bottom Up path(intel-ice)/→ ice_vsi_req_irq_msix(vsi, int_name)/→ ice_vsi_req_irq_msix(vsi, int_name).md",
+    "박찬서/do_epoll_ctl().md",
+    "박찬서/박찬서.md",
+    "박찬서/Test3.md",
+    "박찬서/Test2.md",
+    "박찬서/do_epoll_ctl.md",
+    "황재훈/Research Intern/082924/dev_net().md",
+    "황재훈/Research Intern/082924/okfn().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv6/ipv6_gro_complete().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
     "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md",
-    "NF_HOOK.md",
-    "김기수/산협 프로젝트 2/백서 제작용/hooks_ipv4란.md",
-    "test.txt.md",
-    "Untitled.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_try_coalesce().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_queue_ofo().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_cong_control().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver().md",
+    "김기수/산협 프로젝트 2/미팅 노트/미팅 노트.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/inet_gro_receive().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_defrag().md",
-    "Encyclopedia of NetworkSystem/Function/drivers-net-ethernet-intel-ice/ice_update_rx_ring_stats().md",
-    "Excalidraw/주요 개념 구조도.md",
-    "Excalidraw/RPS-IPI 관계도.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md",
-    "Excalidraw/함수 콜 스택.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/`__inet_lookup_skb().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/img/Pasted image 20240901180451.png",
     "test.txt",
     "Tags",
     "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
