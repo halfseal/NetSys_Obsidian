@@ -289,3 +289,10 @@ write_unlock_irq(&ep->lock);
 
 }
 ```
+
+
+
+
+
+[[ep_events_available()]]
+[[ep_send_events()]]
