@@ -8,19 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bc637a228f4f4264",
+            "id": "4b2f6567ce399068",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "testagain.txt.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4b2f6567ce399068",
+            "id": "8a3d6ead071dc2d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "유지훈/미팅/240920.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a2c8484c1de58b0",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -30,11 +42,27 @@
             }
           },
           {
-            "id": "1f829bf8b2ee0a46",
+            "id": "40148c950a58cc67",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "박찬서/ep_poll().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "722e12bc91a9b664",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encyclopedia of NetworkSystem/Function/fs/ep_send_events().md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -103,7 +131,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 298.5,
+    "collapsed": true
   },
   "right": {
     "id": "221962cf3b17c5ce",
@@ -119,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "testagain.txt.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "testagain.txt.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "testagain.txt.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -185,37 +214,38 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "bc637a228f4f4264",
+  "active": "4b2f6567ce399068",
   "lastOpenFiles": [
+    "Encyclopedia of NetworkSystem/Function/fs/ep_send_events().md",
+    "유지훈/미팅/240920.md",
+    "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md",
+    "Untitled.md",
+    "Excalidraw/함수 콜 스택update.md",
+    "박찬서/ep_poll().md",
+    "Encyclopedia of NetworkSystem/Function/fs/ep_events_available().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_queue_rcv().md",
+    "Encyclopedia of NetworkSystem/Function/fs",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_try_coalesce().md",
+    "김기수/산협 프로젝트 2/미팅 노트/미팅 노트.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver().md",
+    "박찬서/9.20 미팅.md",
+    "Vault.md",
+    "Welcome.md",
+    "testagain.txt.md",
+    "Pasted image 20240920053724.png",
+    "ksoftirqd.md",
+    "2024-2 URP 연구계획서.md",
+    "황재훈/Research Intern/100924.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+    "김기수/산협 프로젝트 2/미팅 노트/9.20 미팅.md",
+    "박찬서/do_epoll_ctl().md",
+    "__napi_schedule_irqoff().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg().md",
+    "Encyclopedia of NetworkSystem/Function/net-core/__sk_flush_backlog().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_ack().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_cong_control().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
-    "Excalidraw/함수 콜 스택update.md",
-    "유지훈/미팅/240920.md",
     "유지훈/미팅",
     "유지훈",
-    "박찬서/ep_poll().md",
-    "박찬서/do_epoll_ctl().md",
-    "Excalidraw/함수 콜 스택.md",
-    "Vault.md",
-    "박찬서/박찬서.md",
-    "박찬서/Test3.md",
-    "박찬서/Test2.md",
-    "박찬서/Test1.md",
-    "README.md",
-    "testagain.txt.md",
-    "NF_HOOK.md",
-    "Pasted image 20240920053724.png",
-    "2024-2 URP 연구계획서.md",
-    "__napi_schedule_irqoff().md",
-    "Excalidraw/주요 개념 구조도.md",
-    "박찬서/9.20 미팅.md",
-    "Untitled.md",
-    "김기수/산협 프로젝트 2/네트워크 스택 기술 개념/MSI-X.md",
-    "Excalidraw/sock.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img/Pasted image 20240901180451.png",
     "test.txt",
     "Tags",
@@ -233,7 +263,6 @@
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img",
     "Encyclopedia of NetworkSystem/Function/net-netfilter",
     "Untitled.canvas",
-    "황재훈/Research Intern/pastNotion/intel ice/irq/img",
-    "황재훈/Research Intern/pastNotion/intel ice/GRO/img"
+    "황재훈/Research Intern/pastNotion/intel ice/irq/img"
   ]
 }
