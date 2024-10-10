@@ -128,4 +128,13 @@ in sequnece, in window인 경우 tcp_try_rmem_schedule() 로 공간을 할당한
 이후 tcp_queue_rcv으로 sk receive queue로 보낸다.
 
 out of sequence인 경우,  tcp data queue ofo() 함수를 호출한다.
+
+>먼저 dst_entry를 드랍하고, 패킷을 receive queue에 넣게 된다. 만약 out of order 패킷이 있다면 out_of_order_queue에 집어 넣는다.
+>우선 현재 수신한 패킷의 seq_num이 해당 소켓이 받아야할 다음 번호와 일치한다면, zero window를 먼저 체크하고, `queue_and_out`라벨로 넘어가게 된다.
+>
+>먼저 메모리 재스케줄이 필요한 경우를 확인하는데, 메모리가 부족한 경우 receive queue와 ofo receive queue를 정리하여 재시도 하게 된다. 계속 부족하면 패킷을 드랍하게 된다.
+>
+>이후는 fast path와 같다. `tcp_queue_rcv`를 호출하여 receive queue에다가 집어 넣게 된다.
+>만약 ofo 인 경우, `tcp_data_queue_ofo()`함수를 호출하게 된다.
+
 [[tcp_data_queue_ofo()]]

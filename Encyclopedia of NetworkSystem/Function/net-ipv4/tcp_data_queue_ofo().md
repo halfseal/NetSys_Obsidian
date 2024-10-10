@@ -146,3 +146,5 @@ end:
 	}
 }
 ```
+
+>정상 receive_queue와 매우 흡사하다. `tcp_ooo_try_coalesce()`함수를 통해 ooo 패킷을 큐에 집어넣게 된다. 여기서는 ooo 패킷 큐를 관리하기 위해 red-black node 데이터 구조를 사용하고 있었다.

@@ -148,6 +148,9 @@ condense, coalesce 를 마치고 나서 `sk_add_backlog()` 실행한다.
 
 gso 관련 parameter가 나온다. (gso size, gso segs) coalescing 할 때 쓰이는데 좀더 찾아봐야할듯
 
+>`tcp_add_backlog()`함수 또한 receive queue에 넣는 것과 마찬가지로 `skb_try_coalesce()`함수를 통해 마지막 skb에 합치거나 해당 큐에 추가하게 된다.
+>마지막에 `sk_add_backlog()`의 경우 실질적으로 `sk->sk_backlog.len`을 늘려주고, 해당 백로그의 포인터를 이번에 합쳐진 Skb를 가르키게 옮김으로써, linked list와 관련 된 처리를 해주고 있음을 알 수 있다.
+
 [[skb_condense()]]
 [[skb_try_coalesce()]] 
 [[sk_add_backlog()]]
