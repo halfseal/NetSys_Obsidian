@@ -127,5 +127,7 @@ tcp_receive_window의 크기를 체크하고 0이면 pkt을 drop한다.
 in sequnece, in window인 경우 tcp_try_rmem_schedule() 로 공간을 할당한다?????
 이후 tcp_queue_rcv으로 sk receive queue로 보낸다.
 
+_@sk_data_ready: callback to indicate there is data to be processed_
+
 out of sequence인 경우,  tcp data queue ofo() 함수를 호출한다.
 [[tcp_data_queue_ofo()]]
