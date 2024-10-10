@@ -4,45 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "657ae50e4305d860",
+        "id": "5221ee9d0e39cf44",
         "type": "tabs",
         "children": [
           {
-            "id": "c0f9fe1b1a88f97d",
+            "id": "acf1cd99e9a4376d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "유지훈/미팅/240920.md",
+                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e6fe42c42bf35bd8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/함수 콜 스택update.md"
-              }
-            }
-          },
-          {
-            "id": "fbc24414ad88f4f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/fs/ep_item_poll().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbdcba9cb18b9604",
+            "id": "5c5e227541675512",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,19 +32,67 @@
             }
           },
           {
-            "id": "a2ffd7a54d73327a",
+            "id": "bc637a228f4f4264",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_def_readable().md",
+                "file": "박찬서/epoll_wait().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bf501c1e99fe2cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "박찬서/ep_poll_callback().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b09eaa1f2319122a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encyclopedia of NetworkSystem/Function/fs/ep_send_events().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9cbf560fb7ee038",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "박찬서/epoll_ctl().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d61b9098f6004195",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "박찬서/syscall_64.tbl.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sock_def",
+                "query": "sk_receive_queue path:\"Encyclopedia of NetworkSystem\"  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -128,13 +154,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "221962cf3b17c5ce",
@@ -150,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/함수 콜 스택update.md",
+                "file": "박찬서/epoll_wait().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/함수 콜 스택update.md",
+                "file": "박찬서/epoll_wait().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,12 +214,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/함수 콜 스택update.md"
+                "file": "박찬서/epoll_wait().md"
               }
+            }
+          },
+          {
+            "id": "7d9f6701a299b81a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "72e9f3112e3eb188",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -216,38 +256,37 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e6fe42c42bf35bd8",
+  "active": "bc637a228f4f4264",
   "lastOpenFiles": [
-    "Encyclopedia of NetworkSystem/Function/fs/ep_item_poll().md",
+    "박찬서/epoll_ctl().md",
+    "박찬서/ep_poll().md",
+    "박찬서/10.11 미팅.md",
+    "박찬서/ep_poll_callback().md",
     "Excalidraw/함수 콜 스택update.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_def_readable().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
+    "박찬서/do_epoll_ctl().md",
+    "박찬서/epoll_wait().md",
     "Encyclopedia of NetworkSystem/Function/fs/ep_send_events().md",
     "Encyclopedia of NetworkSystem/Function/fs/ep_events_available().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_epollin_ready().md",
-    "박찬서/ep_poll().md",
-    "박찬서/ep_poll() 1.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_queue_rcv().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_queue().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_try_coalesce().md",
-    "유지훈/미팅/240920.md",
-    "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md",
-    "박찬서/do_epoll_ctl().md",
-    "Untitled.md",
-    "Encyclopedia of NetworkSystem/Function/fs",
-    "김기수/산협 프로젝트 2/미팅 노트/미팅 노트.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/ip_local_deliver().md",
-    "박찬서/9.20 미팅.md",
-    "Vault.md",
+    "박찬서/syscall_64.tbl.md",
+    "박찬서/read().md",
+    "박찬서/epoll_create().md",
+    "박찬서/select().md",
     "Welcome.md",
-    "testagain.txt.md",
-    "Pasted image 20240920053724.png",
-    "ksoftirqd.md",
-    "2024-2 URP 연구계획서.md",
-    "황재훈/Research Intern/100924.md",
-    "유지훈/미팅",
-    "유지훈",
+    "Excalidraw/함수 콜 스택.md",
+    "황재훈/Research Intern/pastNotion/082724.md",
+    "박찬서/sys.md",
+    "Excalidraw/함수 콜 스택.png",
+    "유지훈/미팅/240920.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+    "images/Pasted image 20240731112615.png",
+    "NETSYS_Test/Undergrad Study I/A Compiler Framework for Optimizing DP on GPUs.md",
+    "NETSYS_Test/Undergrad Study I/A little bit on network scheduling.md",
+    "NETSYS_Test/Undergrad Study I/An Attempt at Understanding the MICRO '12 Slides.md",
+    "NETSYS_Test/Undergrad Study I/Breakdown of the skb_segment function.md",
+    "NETSYS_Test/Undergrad Study I/Dispatch Threads vs. Worker Threads.md",
+    "NETSYS_Test/Undergrad Study I/DP in GPU.md",
+    "NETSYS_Test/Undergrad Study I/DPDK.md",
+    "Encyclopedia of NetworkSystem/Function/fs",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img/Pasted image 20240901180451.png",
     "test.txt",
     "Tags",
@@ -260,11 +299,12 @@
     "images/Pasted image 20240904095723 1.png",
     "images/Pasted image 20240904101222 1.png",
     "images/Pasted image 20240904100752 1.png",
-    "Encyclopedia of NetworkSystem/Function/net-core/img/Pasted image 20240904104737.png",
     "Encyclopedia of NetworkSystem/Function/net-core/img",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img",
     "Encyclopedia of NetworkSystem/Function/net-netfilter",
     "Untitled.canvas",
-    "황재훈/Research Intern/pastNotion/intel ice/irq/img"
+    "황재훈/Research Intern/pastNotion/intel ice/irq/img",
+    "황재훈/Research Intern/pastNotion/intel ice/GRO/img",
+    "황재훈/Research Intern/pastNotion/intel ice/DMA/img"
   ]
 }
