@@ -277,6 +277,11 @@
   },
   "active": "72e9f3112e3eb188",
   "lastOpenFiles": [
+    "황재훈/Research Intern/100924.md",
+    "testagain.txt.md",
+    "Encyclopedia of NetworkSystem/Function/fs/ep_send_events().md",
+    "Encyclopedia of NetworkSystem/Function/fs/ep_events_available().md",
+    "Encyclopedia of NetworkSystem/Function/fs",
     "박찬서/ep_poll().md",
     "박찬서/do_epoll_ctl().md",
     "Excalidraw/함수 콜 스택update.md",
@@ -302,11 +307,7 @@
     "Encyclopedia of NetworkSystem/Function/net-core/__release_sock().md",
     "Encyclopedia of NetworkSystem/Function/include-linux/skb_copy_datagram_msg().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/inet_gro_receive().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/sk_add_backlog().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/`__inet_lookup_skb().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img/Pasted image 20240901180451.png",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_complete().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp4_gro_receive().md",
     "test.txt",
     "Tags",
     "Encyclopedia of NetworkSystem/Function/net-ipv4-netfilter",
@@ -323,7 +324,6 @@
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img",
     "Encyclopedia of NetworkSystem/Function/net-netfilter",
     "Untitled.canvas",
-    "황재훈/Research Intern/pastNotion/intel ice/irq/img",
-    "황재훈/Research Intern/pastNotion/intel ice/GRO/img"
+    "황재훈/Research Intern/pastNotion/intel ice/irq/img"
   ]
 }
