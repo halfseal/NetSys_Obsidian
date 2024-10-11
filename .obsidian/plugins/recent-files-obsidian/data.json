@@ -5,74 +5,33 @@
       "path": "Excalidraw/함수 콜 스택update.md"
     },
     {
-      "basename": "tcp_data_ready()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md"
+      "basename": "epoll_wait()",
+      "path": "박찬서/epoll_wait().md"
     },
     {
-      "basename": "함수 콜 스택",
-      "path": "Excalidraw/함수 콜 스택.png"
-    },
-    {
-      "basename": "tcp_recvmsg_locked()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg_locked().md"
-    },
-    {
-      "basename": "skb_copy_datagram_msg()",
-      "path": "Encyclopedia of NetworkSystem/Function/include-linux/skb_copy_datagram_msg().md"
-    },
-    {
-      "basename": "__skb_datagram_iter()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-core/__skb_datagram_iter().md"
-    },
-    {
-      "basename": "skb_copy_datagram_iter()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-core/skb_copy_datagram_iter().md"
-    },
-    {
-      "basename": "tcp_recvmsg()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg().md"
-    },
-    {
-      "basename": "release_sock()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-core/release_sock().md"
-    },
-    {
-      "basename": "240920",
-      "path": "유지훈/미팅/240920.md"
+      "basename": "epoll_ctl()",
+      "path": "박찬서/epoll_ctl().md"
     },
     {
       "basename": "ep_poll()",
       "path": "박찬서/ep_poll().md"
     },
     {
-      "basename": "tcp_add_backlog()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_add_backlog().md"
+      "basename": "10.11 미팅",
+      "path": "박찬서/10.11 미팅.md"
     },
     {
-      "basename": "주요 개념 구조도",
-      "path": "Excalidraw/주요 개념 구조도.md"
+      "basename": "ep_poll_callback()",
+      "path": "박찬서/ep_poll_callback().md"
     },
     {
-      "basename": "9.27 미팅",
-      "path": "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md"
+      "basename": "함수 콜 스택",
+      "path": "Excalidraw/함수 콜 스택.png"
     },
     {
-      "basename": "tcp_v4_rcv()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md"
+      "basename": "skb_copy_datagram_msg()",
+      "path": "Encyclopedia of NetworkSystem/Function/include-linux/skb_copy_datagram_msg().md"
     },
-    {
-      "basename": "skb_condense()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_condense().md"
-    },
-    {
-      "basename": "sock_owned_by_user()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_owned_by_user().md"
-    },
-    {
-      "basename": "tcp_v4_do_rcv()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md"
-    },
-    {
       "basename": "tcp_rcv_established()",
       "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md"
     },
@@ -189,8 +148,124 @@
       "path": "황재훈/Research Intern/082924/ip_rcv.md"
     },
     {
-      "basename": "9.20 미팅",
-      "path": "김기수/산협 프로젝트 2/미팅 노트/9.20 미팅.md"
+      "basename": "A Compiler Framework for Optimizing DP on GPUs",
+      "path": "NETSYS_Test/Undergrad Study I/A Compiler Framework for Optimizing DP on GPUs.md"
+    },
+    {
+      "basename": "A little bit on network scheduling",
+      "path": "NETSYS_Test/Undergrad Study I/A little bit on network scheduling.md"
+    },
+    {
+      "basename": "An Attempt at Understanding the MICRO '12 Slides",
+      "path": "NETSYS_Test/Undergrad Study I/An Attempt at Understanding the MICRO '12 Slides.md"
+    },
+    {
+      "basename": "Breakdown of the skb_segment function",
+      "path": "NETSYS_Test/Undergrad Study I/Breakdown of the skb_segment function.md"
+    },
+    {
+      "basename": "Dispatch Threads vs. Worker Threads",
+      "path": "NETSYS_Test/Undergrad Study I/Dispatch Threads vs. Worker Threads.md"
+    },
+    {
+      "basename": "DP in GPU",
+      "path": "NETSYS_Test/Undergrad Study I/DP in GPU.md"
+    },
+    {
+      "basename": "DPDK",
+      "path": "NETSYS_Test/Undergrad Study I/DPDK.md"
+    },
+    {
+      "basename": "DPDK vs XDP",
+      "path": "NETSYS_Test/Undergrad Study I/DPDK vs XDP.md"
+    },
+    {
+      "basename": "DPDK vs XDP Cntd.",
+      "path": "NETSYS_Test/Undergrad Study I/DPDK vs XDP Cntd..md"
+    },
+    {
+      "basename": "eBPF",
+      "path": "NETSYS_Test/Undergrad Study I/eBPF.md"
+    },
+    {
+      "basename": "eBPF Code (bcc)",
+      "path": "NETSYS_Test/Undergrad Study I/eBPF Code (bcc).md"
+    },
+    {
+      "basename": "eBPF Verifier",
+      "path": "NETSYS_Test/Undergrad Study I/eBPF Verifier.md"
+    },
+    {
+      "basename": "eBPF(bcc) Deeper",
+      "path": "NETSYS_Test/Undergrad Study I/eBPF(bcc) Deeper.md"
+    },
+    {
+      "basename": "eRPC Concept Summary",
+      "path": "NETSYS_Test/Undergrad Study I/eRPC Concept Summary.md"
+    },
+    {
+      "basename": "eRPC Review (1 out of 3)",
+      "path": "NETSYS_Test/Undergrad Study I/eRPC Review (1 out of 3).md"
+    },
+    {
+      "basename": "eRPC Step by Step",
+      "path": "NETSYS_Test/Undergrad Study I/eRPC Step by Step.md"
+    },
+    {
+      "basename": "eRPC Step By Step Further",
+      "path": "NETSYS_Test/Undergrad Study I/eRPC Step By Step Further.md"
+    },
+    {
+      "basename": "eRPC Threads",
+      "path": "NETSYS_Test/Undergrad Study I/eRPC Threads.md"
+    },
+    {
+      "basename": "eRPC Summary",
+      "path": "NETSYS_Test/Undergrad Study I/eRPC Summary.md"
+    },
+    {
+      "basename": "GPGPUSim",
+      "path": "NETSYS_Test/Undergrad Study I/GPGPUSim.md"
+    },
+    {
+      "basename": "GRO Analysis",
+      "path": "NETSYS_Test/Undergrad Study I/GRO Analysis.md"
+    },
+    {
+      "basename": "GSO, TSO cntd. 2",
+      "path": "NETSYS_Test/Undergrad Study I/GSO, TSO cntd. 2.md"
+    },
+    {
+      "basename": "GSO, TSO enable",
+      "path": "NETSYS_Test/Undergrad Study I/GSO, TSO enable.md"
+    },
+    {
+      "basename": "IOMMU",
+      "path": "NETSYS_Test/Undergrad Study I/IOMMU.md"
+    },
+    {
+      "basename": "inet_gro_receive()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/inet_gro_receive().md"
+    },
+    {
+      "basename": "understanding network host",
+      "path": "황재훈/Research Intern/pastNotion/understanding network host.md"
+    },
+    {
+      "basename": "100924",
+      "path": "황재훈/Research Intern/100924.md"
+    },
+    {
+      "basename": "ep_item_poll()",
+      "path": "Encyclopedia of NetworkSystem/Function/fs/ep_item_poll().md"
+    },
+    {
+      "basename": "sock_def_readable()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_def_readable().md"
+    },
+    {
+      "basename": "tcp_data_ready()",
+      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md"
     }
   ],
   "omittedPaths": []
