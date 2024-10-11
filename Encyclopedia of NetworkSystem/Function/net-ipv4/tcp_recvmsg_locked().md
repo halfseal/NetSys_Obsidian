@@ -245,6 +245,21 @@ recv_sndq:
 }
 ```
 
+> timestamp와 urgent data 등을 처리하고 난 뒤, `sock_rcvlowat()`함수를 통해 수신 받을 길이를 설정하게 된다. 최소한 이 길이 만큼은 읽어야  한 번의 수신 루틴이 끝나게 된다.
+> 
+> 그 다음은 do - while 문으로 len보다 많은 길이를 받을 때까지 계속 복사를 하게 되는데, 우선은 `skb_peek_tail`을 통해 수신 큐의 가장 마지막 패킷을 찾은 다음에, `skb_queue_walk()`함수를 통해 해당 수신 큐를 처음부터 반복하게 된다. 그 다음 각종 오류들을 탐색하며 만약 오류가 발생했을 시에 이를 경고하고, `last`에는 해당 `skb`가 저장될 것이다. 아니라면 중간에 오프셋을 확인하여 정상적인 skb를 가지고 `goto found_ok_skb`를 통해 해당 skb를 처리하는 루틴으로 넘어가게 된다.
+> 
+> 그 후 만약 수신 큐에서 모두 복사가 완료되어 `copied >= target`이라면 백로그를 처리하지 않고 `break`가 된다. 그 외에도 `sk->sk_shutdown`을 `RCV_SHUTDOWN`과 비트 & 연산을 하여 종료 조건을 확인한다.
+> 
+> 이후 다시 `copied >= target`이라면 `__sk_flush_backlog()`함수를 호출하여 백로그를 처리하게 된다. 만약 위의 조건을 만족하지 않는다면 `tcp_cleanup_rbuf()`함수를 호출하여 수신 큐를 정리하고, `sk_wait_data()`함수를 시행하게 된다.
+> 
+> 
+> `found_ok_skb:`
+> 사용할 수 있는 길이를 게산하고, urg_data인 경우 먼저 처리를 해주며, 메인 루틴은 `skb_copy_datagram_msg()`를 통해 이루어진다. 이렇게 user space로 copy가 이루어지고 난 뒤에는 tcp 소켓의 수신 큐가 적절한 길이를 가질 수 있게 `tcp_rcv_space_adjust()`함수가 호출되게 된다.
+> 그렇게 처음 인자로 받은 `len`에서 복사한 길이 만큼 계속 빼게 되고, do -while 문은 이 길이가 0보다 작아졌을 때 종료되게 된다.
+> 
+> 마지막으로 한번 더 `tcp_cleanup_rbuf()`를 호출하고 난 뒤 함수가 `copied`를 반환하며 종료된다.
+
 [[__sk_flush_backlog()]]
 [[sk_wait_data()]]
 [[skb_copy_datagram_msg()]]
