@@ -31,6 +31,8 @@ int tcp_recvmsg(struct sock *sk, struct msghdr *msg, size_t len, int flags,
 }
 ```
 
+> `lock_sock()`함수를 통해 해당 소켓의 락을 획득하고, [[tcp_recvmsg_locked()]]를 호출하게 된다. 그리고 소켓 락을 해제한다. 여기서 나온 결과를 그대로 return 하게 된다.
+
 [[tcp_recvmsg_locked()]]
 [[release_sock()]]
 

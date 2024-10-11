@@ -232,8 +232,9 @@ discard:
 > 	 만약 `len` > `tcp_header_len`이라면, 이는 pure receiver라는 뜻이다. 여기서 다시 한 번 checksum 과 truesize, tcp_header_len을 확인하고, RTT를 확인하게 된다.
 > 	 이후 `skb`의 `dst_entry`를 드랍하고, tcp 헤더 길이만큼 포인터를 옮긴 다음에 남은 `skb->data`가 페이로드를 가르키게 하여 `tcp_queue_rcv()` 함수를 실행하게 한다. 	이를 `eaten` 변수에 저장하게 된다. 또한 `tcp_event_data_recv()`함수를 실행하여 cwnd가 빠르게 증가할 수 있도록 한다.
 > 	 
-> 	 그후 ack 확인을 하고 `tcp_ack()`함수를 실행한다. 또한 `tcp_data_snd_check()`함수를 실행하고, 소켓의 윈도우 크기를 업데이트 하며 만약 eaten 된 패킷이 있다면 `tcp_data_ready()`를 실행하여 
-> 
+> 	 그후 ack 확인을 하고 `tcp_ack()`함수를 실행한다. 또한 `tcp_data_snd_check()`함수를 실행하고, 소켓의 윈도우 크기를 업데이트 하며 만약 eaten 된 패킷이 있다면 `tcp_data_ready()`를 실행하여  해당 소켓의 데이터가 준비되었음을 알리게 된다.
+> 여기서부터는 slow path이다.
+> 	csum과 flag들을 확인하고, `tcp_validate_incoming()`함수를 통해 해당 패킷이 유효한 수신패킷인지 확인하게 된다. 그리고 유효하다면, `tcp_ack()`를 통해 ack 패킷을 보내게 되고, rtt를 측정하고 urgent data를 처리하기 위해 `tcp_urg()`를 실행하게 된다. 마지막으로 `tcp_data_queue`라는 함수를 실행하게 되는데, 이는 slow path에서 데이터를 소켓으로 넣어주는 함수이다. 그후 `tcp_data_snd_check()` 와 `tcp_ack_snd_check()`함수를 실행하고 함수가 종료된다.
 > 
 
 ---
