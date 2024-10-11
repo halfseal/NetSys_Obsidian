@@ -79,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg_locked().md",
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg_locked().md",
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg_locked().md"
+                "file": "Excalidraw/함수 콜 스택update.md"
               }
             }
           },
@@ -246,34 +246,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e40169b218f9b2b",
+  "active": "27b713e7d2a920c7",
   "lastOpenFiles": [
+    "박찬서/do_epoll_ctl().md",
+    "박찬서/9.20 미팅.md",
+    "NETSYS_Test/Overview.md",
+    "Excalidraw/함수 콜 스택update.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
+    "sock_def_readable().md",
+    "Excalidraw/함수 콜 스택.png",
+    "박찬서/syscall_64.tbl.md",
+    "박찬서/select().md",
+    "박찬서/read().md",
+    "박찬서/epoll_wait().md",
+    "박찬서/epoll_ctl().md",
+    "박찬서/epoll_create().md",
+    "박찬서/ep_poll_callback().md",
+    "박찬서/10.11 미팅.md",
+    "NETSYS_Test/Undergrad Study I/Overview.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_epollin_ready().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_def_readable().md",
+    "Encyclopedia of NetworkSystem/Function/fs/ep_item_poll().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg_locked().md",
     "Encyclopedia of NetworkSystem/Function/include-linux/skb_copy_datagram_msg().md",
     "Encyclopedia of NetworkSystem/Function/net-core/__skb_datagram_iter().md",
     "Encyclopedia of NetworkSystem/Function/net-core/skb_copy_datagram_iter().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg_locked().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg().md",
-    "Excalidraw/함수 콜 스택update.md",
     "Encyclopedia of NetworkSystem/Function/net-core/release_sock().md",
     "유지훈/미팅/240920.md",
     "박찬서/ep_poll().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_add_backlog().md",
-    "Excalidraw/주요 개념 구조도.md",
-    "김기수/산협 프로젝트 2/미팅 노트/9.27 미팅.md",
-    "박찬서/do_epoll_ctl().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_condense().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_owned_by_user().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_do_rcv().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_queue().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_queue_ofo().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_queue_rcv().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
-    "황재훈/Research Intern/100924.md",
-    "박찬서/9.20 미팅.md",
-    "sock_def_readable().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_try_coalesce().md",
     "Encyclopedia of NetworkSystem/Function/fs",
     "유지훈/미팅",
     "유지훈",
@@ -290,7 +291,6 @@
     "images/Pasted image 20240904095723 1.png",
     "images/Pasted image 20240904101222 1.png",
     "images/Pasted image 20240904100752 1.png",
-    "Encyclopedia of NetworkSystem/Function/net-core/img/Pasted image 20240904104737.png",
     "Encyclopedia of NetworkSystem/Function/net-core/img",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/img",
     "Encyclopedia of NetworkSystem/Function/net-netfilter",
