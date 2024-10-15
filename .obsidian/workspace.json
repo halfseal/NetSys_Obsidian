@@ -149,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,8 +236,9 @@
   },
   "active": "6a0ad5ff3c0c691c",
   "lastOpenFiles": [
-    "박찬서/read().md",
     "Excalidraw/함수 콜 스택update.md",
+    "Excalidraw/함수 콜 스택 chan.md",
+    "박찬서/read().md",
     "sock_recvmsg.md",
     "김기수/산협 프로젝트 2/미팅 노트/10.18 미팅.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg().md",
@@ -262,7 +262,6 @@
     "Encyclopedia of NetworkSystem/Function/drivers-net-ethernet-intel-ice/ice_update_rx_ring_stats().md",
     "Excalidraw/함수 콜 스택.png",
     "NETSYS_Test/Undergrad Study I/Overview.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_epollin_ready().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_def_readable().md"
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_epollin_ready().md"
   ]
 }
