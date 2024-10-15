@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "RPS-IPI 관계도",
+      "path": "Excalidraw/RPS-IPI 관계도.md"
+    },
+    {
+      "basename": "10.18 미팅",
+      "path": "김기수/산협 프로젝트 2/미팅 노트/10.18 미팅.md"
+    },
+    {
       "basename": "함수 콜 스택update",
       "path": "Excalidraw/함수 콜 스택update.md"
+    },
+    {
+      "basename": "함수 콜 스택 chan",
+      "path": "Excalidraw/함수 콜 스택 chan.md"
     },
     {
       "basename": "read()",
@@ -11,10 +23,6 @@
     {
       "basename": "sock_recvmsg",
       "path": "sock_recvmsg.md"
-    },
-    {
-      "basename": "10.18 미팅",
-      "path": "김기수/산협 프로젝트 2/미팅 노트/10.18 미팅.md"
     },
     {
       "basename": "tcp_recvmsg()",
@@ -95,10 +103,6 @@
     {
       "basename": "함수 콜 스택",
       "path": "Excalidraw/함수 콜 스택.png"
-    },
-    {
-      "basename": "RPS-IPI 관계도",
-      "path": "Excalidraw/RPS-IPI 관계도.md"
     },
     {
       "basename": "함수 콜 스택",
