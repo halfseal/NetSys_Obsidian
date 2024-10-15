@@ -54,3 +54,5 @@ static bool tcp_try_coalesce(struct sock *sk,
 ```
 
 >주어진 두 개의 sk_buff를 합치는 함수이다. `skb_try_coalesce()`함수를 통해 병합을 시도하며, timestamp, seq num, flags 등을 넘겨 받게 된다.
+
+[[skb_try_coalesce()]]
