@@ -11,125 +11,13 @@
             "id": "6a0ad5ff3c0c691c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9325b84620e7d885",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "Excalidraw/함수 콜 스택update.md",
-                "staged": false
-              }
-            }
-          },
-          {
-            "id": "ce21640a17253bfa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "박찬서/10.11 미팅.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ec2a02e5838c541",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "박찬서/select().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eca4169018479074",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "박찬서/epoll_wait().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f5134f71c7ea46c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "박찬서/epoll_ctl().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "65f80471653413f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "박찬서/ep_poll_callback().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb1620ad0d45e64b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "박찬서/epoll_create().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da16ee1383539321",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6fb3085f6e1addbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg_locked().md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Excalidraw/함수 콜 스택update.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c6aa2f254e138378",
@@ -203,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,6 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Excalidraw/함수 콜 스택update.md"
+              }
             }
           },
           {
@@ -256,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,24 +167,94 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9325b84620e7d885",
+  "floating": {
+    "id": "ebc1ed9ebf6038d4",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8ebdbc8eb328b0e1",
+        "type": "window",
+        "children": [
+          {
+            "id": "4dc0ba4e8699262f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cb1620ad0d45e64b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "박찬서/read().md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 39,
+        "width": 855,
+        "height": 1068,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "af853bcea2ac2380",
+        "type": "window",
+        "children": [
+          {
+            "id": "234001cdcd4cdb10",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ce21640a17253bfa",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "김기수/산협 프로젝트 2/미팅 노트/10.18 미팅.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 798,
+        "y": 130,
+        "width": 746,
+        "height": 738,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "6a0ad5ff3c0c691c",
   "lastOpenFiles": [
     "박찬서/read().md",
-    "김기수/산협 프로젝트 2/스터디 자료/perf.md",
-    "김기수/산협 프로젝트 2/산협 프로젝트 2.md",
     "Excalidraw/함수 콜 스택update.md",
-    "박찬서/select().md",
-    "박찬서/epoll_wait().md",
-    "박찬서/epoll_ctl().md",
+    "sock_recvmsg.md",
+    "김기수/산협 프로젝트 2/미팅 노트/10.18 미팅.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg().md",
     "박찬서/10.11 미팅.md",
     "박찬서/epoll_create().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md",
+    "박찬서/select().md",
     "박찬서/ep_poll_callback().md",
+    "박찬서/epoll_wait().md",
+    "박찬서/epoll_ctl().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg_locked().md",
+    "김기수/산협 프로젝트 2/스터디 자료/perf.md",
+    "김기수/산협 프로젝트 2/산협 프로젝트 2.md",
     "Encyclopedia of NetworkSystem/Function/include-linux/skb_copy_datagram_msg().md",
     "Encyclopedia of NetworkSystem/Function/net-core/skb_copy_datagram_iter().md",
     "Encyclopedia of NetworkSystem/Function/net-core/__skb_datagram_iter().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md",
     "박찬서/syscall_64.tbl.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_try_coalesce().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_queue_rcv().md",
@@ -299,8 +263,6 @@
     "Excalidraw/함수 콜 스택.png",
     "NETSYS_Test/Undergrad Study I/Overview.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_epollin_ready().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_def_readable().md",
-    "Encyclopedia of NetworkSystem/Function/fs/ep_item_poll().md",
-    "Excalidraw/RPS-IPI 관계도.md"
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/sock_def_readable().md"
   ]
 }
