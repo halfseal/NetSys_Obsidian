@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0ba3f0b730c73bae",
+        "id": "801526f8db3eeca2",
         "type": "tabs",
         "children": [
           {
-            "id": "6a0ad5ff3c0c691c",
+            "id": "19641393bfc3cd26",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -75,8 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c6aa2f254e138378",
@@ -234,7 +233,7 @@
       }
     ]
   },
-  "active": "6a0ad5ff3c0c691c",
+  "active": "19641393bfc3cd26",
   "lastOpenFiles": [
     "Excalidraw/함수 콜 스택update.md",
     "Excalidraw/함수 콜 스택 chan.md",
