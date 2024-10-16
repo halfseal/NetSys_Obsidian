@@ -4,19 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "ecc92da43fce1eb5",
+        "id": "603e15adca2722cb",
         "type": "tabs",
+        "dimension": 46.698679471788715,
         "children": [
           {
-            "id": "285eb457c1c29acb",
+            "id": "2a59dc90838a23ce",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/함수 콜 스택update.md"
+                "file": "Excalidraw/함수 콜 스택 chan.md"
               }
             }
           },
+          {
+            "id": "83ecf9bce79b03a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "박찬서/read().md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0700b88ebd425eff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "김기수/산협 프로젝트 2/백서 제작용/about Wait queue....md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "ecc92da43fce1eb5",
+        "type": "tabs",
+        "dimension": 53.301320528211285,
+        "children": [
           {
             "id": "4bf22d975b53c183",
             "type": "leaf",
@@ -28,19 +62,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f86dddeaca20d0dd",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/RPS-IPI 관계도.md"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c6aa2f254e138378",
@@ -115,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/RPS-IPI 관계도.md",
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/RPS-IPI 관계도.md",
+                "file": "Excalidraw/함수 콜 스택update.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/RPS-IPI 관계도.md"
+                "file": "Excalidraw/함수 콜 스택update.md"
               }
             }
           },
@@ -195,37 +217,6 @@
     "type": "floating",
     "children": [
       {
-        "id": "8ebdbc8eb328b0e1",
-        "type": "window",
-        "children": [
-          {
-            "id": "4dc0ba4e8699262f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "cb1620ad0d45e64b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "박찬서/read().md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 39,
-        "width": 855,
-        "height": 1068,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
         "id": "af853bcea2ac2380",
         "type": "window",
         "children": [
@@ -235,6 +226,79 @@
             "children": [
               {
                 "id": "ce21640a17253bfa",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg().md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "cb1620ad0d45e64b",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/함수 콜 스택 chan.md"
+                  }
+                }
+              },
+              {
+                "id": "285eb457c1c29acb",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/함수 콜 스택update.md"
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical",
+        "x": 439,
+        "y": 39,
+        "width": 1271,
+        "height": 1068,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "d1baf167ea1f89cd",
+        "type": "window",
+        "children": [
+          {
+            "id": "aa77708ac5b179cc",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f86dddeaca20d0dd",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/RPS-IPI 관계도.md"
+                  }
+                }
+              },
+              {
+                "id": "4e68ec536e95d3f7",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/주요 개념 구조도.md"
+                  }
+                }
+              },
+              {
+                "id": "676cd1a2a936af7c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -249,43 +313,44 @@
           }
         ],
         "direction": "vertical",
-        "x": 798,
-        "y": 130,
-        "width": 746,
-        "height": 738,
+        "x": 959,
+        "y": 39,
+        "width": 751,
+        "height": 1068,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "f86dddeaca20d0dd",
+  "active": "285eb457c1c29acb",
   "lastOpenFiles": [
-    "김기수/산협 프로젝트 2/미팅 노트/10.18 미팅.md",
-    "Excalidraw/함수 콜 스택update.md",
     "Excalidraw/함수 콜 스택 chan.md",
-    "박찬서/read().md",
-    "sock_recvmsg.md",
+    "Excalidraw/함수 콜 스택update.md",
+    "Excalidraw/RPS-IPI 관계도.md",
+    "Excalidraw/주요 개념 구조도.md",
+    "김기수/산협 프로젝트 2/미팅 노트/10.18 미팅.md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_add_backlog().md",
+    "김기수/산협 프로젝트 2/백서 제작용/about Wait queue....md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/sk_add_backlog().md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_v4_rcv().md",
+    "박찬서/read().md",
+    "Encyclopedia of NetworkSystem/Function/net-core/__release_sock().md",
+    "Encyclopedia of NetworkSystem/Function/net-core/release_sock().md",
+    "Pasted Image 20241015154739_315.png",
+    "김기수/산협 프로젝트 2/백서 제작용/recv() syscall.md",
+    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg_locked().md",
+    "sock_recvmsg.md",
+    "Encyclopedia of NetworkSystem/Function/include-linux/skb_copy_datagram_msg().md",
+    "Encyclopedia of NetworkSystem/Function/net-core/skb_copy_datagram_iter().md",
+    "Encyclopedia of NetworkSystem/Function/net-core/__skb_datagram_iter().md",
+    "유지훈/미팅/240920.md",
     "박찬서/10.11 미팅.md",
     "박찬서/epoll_create().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/skb_try_coalesce().md",
     "박찬서/select().md",
     "박찬서/ep_poll_callback().md",
     "박찬서/epoll_wait().md",
-    "박찬서/epoll_ctl().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg_locked().md",
-    "김기수/산협 프로젝트 2/스터디 자료/perf.md",
-    "김기수/산협 프로젝트 2/산협 프로젝트 2.md",
-    "Encyclopedia of NetworkSystem/Function/include-linux/skb_copy_datagram_msg().md",
-    "Encyclopedia of NetworkSystem/Function/net-core/skb_copy_datagram_iter().md",
-    "Encyclopedia of NetworkSystem/Function/net-core/__skb_datagram_iter().md",
-    "박찬서/syscall_64.tbl.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_try_coalesce().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_queue_rcv().md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
-    "Encyclopedia of NetworkSystem/Function/drivers-net-ethernet-intel-ice/ice_update_rx_ring_stats().md",
-    "Excalidraw/함수 콜 스택.png",
-    "NETSYS_Test/Undergrad Study I/Overview.md",
-    "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_epollin_ready().md"
+    "Excalidraw/함수 콜 스택.png"
   ]
 }
