@@ -1,3 +1,13 @@
+---
+Parameter:
+  - sock
+  - msghdr
+  - size_t
+  - int
+  - int_
+Return: int
+Location: /net/ipv4/tcp.c
+---
 ```C
 int tcp_recvmsg(struct sock *sk, struct msghdr *msg, size_t len, int flags,
 		int *addr_len)
