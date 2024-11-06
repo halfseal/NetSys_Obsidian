@@ -100,9 +100,21 @@
               "icon": "lucide-file",
               "title": "EEVDF(Earliest Eligible Virtual Deadline First)"
             }
+          },
+          {
+            "id": "71536624e31a12e0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -155,16 +167,6 @@
             }
           },
           {
-            "id": "c0971d409c6fab5c",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Spaces"
-            }
-          },
-          {
             "id": "14dd9c03fa2dc5dd",
             "type": "leaf",
             "state": {
@@ -173,9 +175,19 @@
               "icon": "clock",
               "title": "Recent Files"
             }
+          },
+          {
+            "id": "f526b32613cc8dd1",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Spaces"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -279,7 +291,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5adbd735fb2f22e2",
+  "active": "14dd9c03fa2dc5dd",
   "lastOpenFiles": [
     "박찬서/미팅 노트/11.1 미팅.md",
     "Encyclopedia of NetworkSystem/Function/drivers-net-ethernet-intel-ice/ice_alloc_rx_bufs().md",
