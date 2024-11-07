@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "cong_control test",
+      "path": "황재훈/Research Intern/tcp_test/jae/cong_control test.md"
+    },
+    {
       "basename": "EEVDF(Earliest Eligible Virtual Deadline First)",
       "path": "박찬서/EEVDF(Earliest Eligible Virtual Deadline First).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "함수 콜 스택",
       "path": "Excalidraw/함수 콜 스택.png"
-    },
-    {
-      "basename": "함수 콜 스택",
-      "path": "Excalidraw/함수 콜 스택.md"
     }
   ],
   "omittedPaths": []

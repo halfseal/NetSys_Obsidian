@@ -93,28 +93,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "박찬서/EEVDF(Earliest Eligible Virtual Deadline First).md",
+                "file": "황재훈/Research Intern/tcp_test/jae/cong_control test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EEVDF(Earliest Eligible Virtual Deadline First)"
-            }
-          },
-          {
-            "id": "71536624e31a12e0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
+              "title": "cong_control test"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -177,7 +165,7 @@
             }
           },
           {
-            "id": "f526b32613cc8dd1",
+            "id": "febf4192d9d253e8",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -191,7 +179,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c6aa2f254e138378",
@@ -291,8 +280,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "14dd9c03fa2dc5dd",
+  "active": "5adbd735fb2f22e2",
   "lastOpenFiles": [
+    "Pasted image 20241107174041.png",
+    "Pasted image 20241107173818.png",
+    "Pasted image 20241107173756.png",
+    "Pasted image 20241107173413.png",
+    "Pasted image 20241107173351.png",
+    "Pasted image 20241107173319.png",
     "박찬서/미팅 노트/11.1 미팅.md",
     "Encyclopedia of NetworkSystem/Function/drivers-net-ethernet-intel-ice/ice_alloc_rx_bufs().md",
     "Encyclopedia of NetworkSystem/Function/net-core/netif_receive_skb().md",
@@ -319,7 +314,6 @@
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg_locked().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_recvmsg().md",
     "황재훈/Research Intern/082924/tcp_rcv_established().md",
-    "황재훈/Research Intern/082924/tcp_v4_do_rcv().md",
     "Pasted Image 20241015154739_315.png",
     "Excalidraw/함수 콜 스택.png"
   ]
