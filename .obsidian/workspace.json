@@ -123,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tcp_input",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -269,25 +269,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7fde18579dd9703c",
+  "active": "8768fd8a1d181f9a",
   "lastOpenFiles": [
-    "Pasted image 20241107210654.png",
+    "황재훈/Research Intern/tcp_test/jae/Pasted image 20241106220917.png",
+    "황재훈/Research Intern/tcp_test/jae/Welcome.md",
+    "황재훈/Research Intern/tcp_test/jae/Pasted image 20241106220852.png",
+    "황재훈/Research Intern/tcp_test/jae/Pasted image 20241106220820.png",
+    "황재훈/Research Intern/tcp_test/jae/Pasted image 20241106220012.png",
+    "황재훈/Research Intern/tcp_test/jae/Pasted image 20241106215954.png",
+    "황재훈/Research Intern/tcp_test/jae/Pasted image 20241106215820.png",
+    "황재훈/Research Intern/tcp_test/jae/Pasted image 20241106215036.png",
+    "황재훈/Research Intern/tcp_test/jae/Pasted image 20241106215005.png",
+    "황재훈/Research Intern/tcp_test/jae/Pasted image 20241106214810.png",
+    "황재훈/Research Intern/tcp_test/jae/Pasted image 20241106212648.png",
+    "황재훈/Research Intern/tcp_test/jae/Pasted image 20241106211743.png",
+    "황재훈/Research Intern/tcp_test/jae/cong_control test.md",
+    "황재훈/Research Intern/tcp_test/jae",
+    "황재훈/Research Intern/tcp_test",
     "박찬서/tcp_v4_fill_cb().md",
     "박찬서/미팅 노트/11.1 미팅.md",
     "박성빈/Congestion Control 1.md",
-    "Pasted image 20241106221122.png",
-    "Pasted image 20241106220042.png",
     "박성빈/![[Pasted image 20241106174258.png]].md",
     "Encyclopedia of NetworkSystem/Function/net-core/__alloc_skb().md",
     "Encyclopedia of NetworkSystem/Function/net-core/__netif_receive_skb_core().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_rcv_established().md",
     "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_data_ready().md",
-    "Pasted image 20241106205326.png",
-    "Pasted image 20241106205248.png",
-    "Pasted image 20241106205142.png",
-    "Pasted image 20241106205040.png",
-    "Pasted image 20241106193215.png",
-    "Pasted image 20241106174258.png",
     "박성빈",
     "Tags",
     "박찬서/EEVDF(Earliest Eligible Virtual Deadline First).md",
@@ -305,10 +311,6 @@
     "박찬서/박찬서.md",
     "박찬서/미팅 노트/미팅 노트.md",
     "박찬서/미팅 노트",
-    "Excalidraw/함수 콜 스택 chan.md",
-    "Excalidraw/RPS-IPI 관계도.md",
-    "Excalidraw/주요 개념 구조도.md",
-    "Pasted Image 20241015154739_315.png",
-    "Excalidraw/함수 콜 스택.png"
+    "Excalidraw/함수 콜 스택 chan.md"
   ]
 }
