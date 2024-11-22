@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Congestion Control 2",
+      "path": "박성빈/Congestion Control 2.md"
+    },
+    {
+      "basename": "Congestion Control 1",
+      "path": "박성빈/Congestion Control 1.md"
+    },
+    {
+      "basename": "100924",
+      "path": "황재훈/Research Intern/100924.md"
+    },
+    {
+      "basename": "Welcome",
+      "path": "황재훈/Research Intern/tcp_test/jae/Welcome.md"
+    },
+    {
       "basename": "cong_control test",
       "path": "황재훈/Research Intern/tcp_test/jae/cong_control test.md"
     },
@@ -13,20 +29,12 @@
       "path": "Encyclopedia of NetworkSystem/Function/net-core/__netif_receive_skb_core().md"
     },
     {
-      "basename": "Congestion Control 1",
-      "path": "박성빈/Congestion Control 1.md"
-    },
-    {
       "basename": "tcp_v4_fill_cb()",
       "path": "박찬서/tcp_v4_fill_cb().md"
     },
     {
       "basename": "Pasted image 20241106220917",
       "path": "황재훈/Research Intern/tcp_test/jae/Pasted image 20241106220917.png"
-    },
-    {
-      "basename": "Welcome",
-      "path": "황재훈/Research Intern/tcp_test/jae/Welcome.md"
     },
     {
       "basename": "Pasted image 20241106220820",
@@ -191,34 +199,6 @@
     {
       "basename": "select()",
       "path": "박찬서/select().md"
-    },
-    {
-      "basename": "epoll_wait()",
-      "path": "박찬서/epoll_wait().md"
-    },
-    {
-      "basename": "epoll_ctl()",
-      "path": "박찬서/epoll_ctl().md"
-    },
-    {
-      "basename": "perf",
-      "path": "김기수/산협 프로젝트 2/스터디 자료/perf.md"
-    },
-    {
-      "basename": "산협 프로젝트 2",
-      "path": "김기수/산협 프로젝트 2/산협 프로젝트 2.md"
-    },
-    {
-      "basename": "syscall_64.tbl",
-      "path": "박찬서/syscall_64.tbl.md"
-    },
-    {
-      "basename": "tcp_try_coalesce()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_try_coalesce().md"
-    },
-    {
-      "basename": "tcp_queue_rcv()",
-      "path": "Encyclopedia of NetworkSystem/Function/net-ipv4/tcp_queue_rcv().md"
     }
   ],
   "omittedPaths": []
