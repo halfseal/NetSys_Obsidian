@@ -1,4 +1,3 @@
-1. 타이머 - 소켓 할당
 ``` c
 void tcp_init_xmit_timers(struct sock *sk)
 {
